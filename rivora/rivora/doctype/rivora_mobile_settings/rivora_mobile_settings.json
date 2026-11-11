@@ -1,0 +1,122 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Settings",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "field_order": [
+    "firebase_section",
+    "firebase_status",
+    "firebase_service_account_json",
+    "location_validate",
+    "geofencing_based_on",
+    "dashboard_section",
+    "home_rules",
+    "entry_notifications_section",
+    "enable_entry_notifications",
+    "entry_notification_doctypes",
+    "entry_rivora_notification_users",
+    "live_location_section",
+    "enable_live_location"
+  ],
+  "fields": [
+    {
+      "fieldname": "firebase_section",
+      "fieldtype": "Section Break",
+      "label": "Phone Push Notifications",
+      "description": "Use Upload Firebase JSON to configure the Admin SDK for project rizora-5a6e6. The key is stored encrypted, outside Git. ToDo assignments notify registered phones automatically; users can turn Phone push alerts off in the mobile app."
+    },
+    {
+      "fieldname": "firebase_status",
+      "fieldtype": "HTML",
+      "label": "Firebase Status"
+    },
+    {
+      "fieldname": "firebase_service_account_json",
+      "fieldtype": "Password",
+      "label": "Firebase Service Account",
+      "hidden": 1,
+      "read_only": 1,
+      "no_copy": 1,
+      "print_hide": 1
+    },
+    {
+      "fieldname": "location_validate",
+      "fieldtype": "Check",
+      "label": "Allow attendance without a geofence",
+      "default": "0"
+    },
+    {
+      "fieldname": "geofencing_based_on",
+      "fieldtype": "Select",
+      "label": "Geofencing Based On",
+      "options": "Rivora Mobile Location",
+      "default": "Rivora Mobile Location"
+    },
+    {
+      "fieldname": "dashboard_section",
+      "fieldtype": "Section Break",
+      "label": "Mobile Home Dashboard"
+    },
+    {
+      "fieldname": "home_rules",
+      "fieldtype": "Table",
+      "label": "User Type Workspace Access",
+      "options": "Rivora Mobile Home Rule",
+      "description": "Choose a User Type, then use Select DocTypes to choose multiple DocTypes. Matching users see those permitted workspace cards on Home. Leave Request is hidden unless selected. An empty selection shows no workspaces for that User Type. Users not listed retain the full dashboard."
+    },
+    {
+      "fieldname": "entry_notifications_section",
+      "fieldtype": "Section Break",
+      "label": "New Entry Notifications"
+    },
+    {
+      "fieldname": "enable_entry_notifications",
+      "fieldtype": "Check",
+      "label": "Enable New Entry Notifications",
+      "default": "0",
+      "description": "Notify the selected users when a new record is successfully committed in any selected DocType. Browser and mobile entries are included; edits, submits and cancels do not trigger a second new-entry alert."
+    },
+    {
+      "fieldname": "entry_notification_doctypes",
+      "fieldtype": "Table MultiSelect",
+      "label": "DocTypes to Notify",
+      "options": "Rivora Mobile Entry Alert DocType",
+      "depends_on": "enable_entry_notifications",
+      "mandatory_depends_on": "enable_entry_notifications"
+    },
+    {
+      "fieldname": "entry_rivora_notification_users",
+      "fieldtype": "Table MultiSelect",
+      "label": "Users to Notify",
+      "options": "Rivora Mobile Entry Alert User",
+      "depends_on": "enable_entry_notifications",
+      "mandatory_depends_on": "enable_entry_notifications",
+      "description": "Selected users receive alerts only for documents they own or are assigned, with read permission. Assigned ToDos notify their assignee. Phone push delivery is controlled separately in each user's mobile app Settings."
+    },
+    {
+      "fieldname": "live_location_section",
+      "fieldtype": "Section Break",
+      "label": "Employee Live Location"
+    },
+    {
+      "fieldname": "enable_live_location",
+      "fieldtype": "Check",
+      "label": "Enable Employee Live Location",
+      "default": "0",
+      "description": "Employees explicitly start sharing for up to eight hours. HR/System Managers and direct reporting managers require Employee read permission and company access. Points are retained for seven days. Attendance is unchanged."
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "report": 1,
+      "export": 1
+    }
+  ],
+  "autoname": "hash",
+  "issingle": 1
+}

@@ -1,0 +1,20 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Poll Option",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "field_order": [
+    "option"
+  ],
+  "fields": [
+    {
+      "fieldname": "option",
+      "fieldtype": "Data",
+      "label": "Option",
+      "reqd": 1
+    }
+  ],
+  "permissions": [],
+  "autoname": "hash",
+  "istable": 1
+}

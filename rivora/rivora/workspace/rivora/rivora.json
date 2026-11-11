@@ -1,0 +1,86 @@
+{
+  "doctype": "Workspace",
+  "name": "Rivora",
+  "label": "Rivora",
+  "title": "Rivora",
+  "module": "Rivora",
+  "public": 1,
+  "is_hidden": 0,
+  "for_user": "",
+  "parent_page": "",
+  "icon": "organization",
+  "indicator_color": "blue",
+  "sequence_id": 25,
+  "content": "[{\"id\": \"rivora-heading\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Rivora</b></span>\", \"col\": 12}}, {\"id\": \"rivora-shortcut-0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"ToDo\", \"col\": 3}}, {\"id\": \"rivora-shortcut-1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Leave Request\", \"col\": 3}}, {\"id\": \"rivora-shortcut-2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Community\", \"col\": 3}}, {\"id\": \"rivora-shortcut-3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Documents\", \"col\": 3}}, {\"id\": \"rivora-shortcut-4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Rivora Visits\", \"col\": 3}}, {\"id\": \"rivora-shortcut-5\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Rivora Mobile Settings\", \"col\": 3}}, {\"id\": \"rivora-shortcut-6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Locations\", \"col\": 3}}, {\"id\": \"rivora-shortcut-7\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Location Assignments\", \"col\": 3}}, {\"id\": \"employee-settings\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Rivora Settings\", \"col\": 3}}]",
+  "charts": [],
+  "number_cards": [],
+  "quick_lists": [],
+  "custom_blocks": [],
+  "roles": [],
+  "links": [],
+  "shortcuts": [
+    {
+      "type": "DocType",
+      "label": "ToDo",
+      "link_to": "ToDo",
+      "doc_view": "List",
+      "color": "Blue"
+    },
+    {
+      "type": "DocType",
+      "label": "Leave Request",
+      "link_to": "Leave Request",
+      "doc_view": "List",
+      "color": "Blue"
+    },
+    {
+      "type": "DocType",
+      "label": "Community",
+      "link_to": "Rivora Post",
+      "doc_view": "List",
+      "color": "Blue"
+    },
+    {
+      "type": "DocType",
+      "label": "Documents",
+      "link_to": "Rivora Documents",
+      "doc_view": "List",
+      "color": "Blue"
+    },
+    {
+      "type": "DocType",
+      "label": "Rivora Visits",
+      "link_to": "Rivora Visit",
+      "doc_view": "List",
+      "color": "Blue"
+    },
+    {
+      "type": "DocType",
+      "label": "Rivora Mobile Settings",
+      "link_to": "Rivora Mobile Settings",
+      "doc_view": "List",
+      "color": "Blue"
+    },
+    {
+      "type": "DocType",
+      "label": "Locations",
+      "link_to": "Rivora Location",
+      "doc_view": "List",
+      "color": "Blue"
+    },
+    {
+      "type": "DocType",
+      "label": "Location Assignments",
+      "link_to": "Rivora Location Assignment",
+      "doc_view": "List",
+      "color": "Blue"
+    },
+    {
+      "type": "DocType",
+      "label": "Rivora Settings",
+      "link_to": "Rivora Settings",
+      "doc_view": "List",
+      "color": "Blue"
+    }
+  ]
+}

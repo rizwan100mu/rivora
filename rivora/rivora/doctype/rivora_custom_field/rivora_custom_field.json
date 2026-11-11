@@ -1,0 +1,60 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "field:document_type",
+  "creation": "2025-04-07 15:40:31.781165",
+  "description": "This is still under development feature for the Rivora mobile",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "document_type",
+    "section_break_uqbc",
+    "rivora_custom_field_details"
+  ],
+  "fields": [
+    {
+      "fieldname": "document_type",
+      "fieldtype": "Link",
+      "label": "Document Type",
+      "options": "DocType",
+      "unique": 1
+    },
+    {
+      "fieldname": "section_break_uqbc",
+      "fieldtype": "Section Break"
+    },
+    {
+      "fieldname": "rivora_custom_field_details",
+      "fieldtype": "Table",
+      "label": "Rivora Custom Field Details",
+      "options": "Rivora Custom Field Details"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2025-09-28 09:37:32.585825",
+  "modified_by": "bhavesh@nesscale.com",
+  "module": "Rivora",
+  "name": "Rivora Custom Field",
+  "naming_rule": "By fieldname",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "row_format": "Dynamic",
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": [],
+  "track_changes": 1
+}

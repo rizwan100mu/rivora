@@ -1,0 +1,14 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Home Rule",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "istable": 1,
+  "field_order": ["user_type", "allowed_doctypes", "choose_doctypes"],
+  "fields": [
+    {"fieldname": "user_type", "fieldtype": "Link", "options": "User Type", "label": "User Type", "reqd": 1, "in_list_view": 1, "columns": 3},
+    {"fieldname": "allowed_doctypes", "fieldtype": "Small Text", "label": "Allowed DocTypes", "default": "ToDo", "read_only": 1, "in_list_view": 1, "columns": 5, "description": "Use Select DocTypes to choose multiple workspace DocTypes. An empty selection shows no workspaces for this User Type."},
+    {"fieldname": "choose_doctypes", "fieldtype": "Button", "label": "Select DocTypes", "in_list_view": 1, "columns": 2}
+  ],
+  "permissions": []
+}

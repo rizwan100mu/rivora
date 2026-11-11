@@ -1,0 +1,7 @@
+[pre_model_sync]
+rivora.patches.fix_rivora_employee_location_page
+
+[post_model_sync]
+rivora.patches.populate_allowed_home_doctypes
+rivora.patches.simplify_home_user_types
+

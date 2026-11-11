@@ -1,0 +1,21 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Entry Alert User",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "istable": 1,
+  "field_order": [
+    "user"
+  ],
+  "fields": [
+    {
+      "fieldname": "user",
+      "fieldtype": "Link",
+      "options": "User",
+      "label": "User",
+      "reqd": 1,
+      "in_list_view": 1
+    }
+  ],
+  "permissions": []
+}

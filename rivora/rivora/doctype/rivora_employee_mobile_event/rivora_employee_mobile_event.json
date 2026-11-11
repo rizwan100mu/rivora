@@ -1,0 +1,58 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Employee Mobile Event",
+  "module": "Rivora",
+  "autoname": "field:event_key",
+  "engine": "InnoDB",
+  "track_changes": 1,
+  "field_order": [
+    "event_key",
+    "user",
+    "employee",
+    "payload_hash",
+    "checkin"
+  ],
+  "fields": [
+    {
+      "fieldname": "event_key",
+      "fieldtype": "Data",
+      "label": "Event Key",
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "user",
+      "fieldtype": "Link",
+      "options": "User",
+      "label": "User",
+      "reqd": 1
+    },
+    {
+      "fieldname": "employee",
+      "fieldtype": "Link",
+      "options": "Employee",
+      "label": "Employee",
+      "reqd": 1
+    },
+    {
+      "fieldname": "payload_hash",
+      "fieldtype": "Data",
+      "label": "Payload Hash",
+      "reqd": 1
+    },
+    {
+      "fieldname": "checkin",
+      "fieldtype": "Link",
+      "options": "Employee Checkin",
+      "label": "Checkin"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "report": 1,
+      "export": 1
+    }
+  ]
+}

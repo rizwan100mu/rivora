@@ -1,0 +1,56 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Document",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "field_order": [
+    "title",
+    "employee_no",
+    "description",
+    "attachment"
+  ],
+  "fields": [
+    {
+      "fieldname": "title",
+      "fieldtype": "Data",
+      "label": "Title",
+      "reqd": 1
+    },
+    {
+      "fieldname": "employee_no",
+      "fieldtype": "Link",
+      "label": "Employee No",
+      "options": "Employee",
+      "reqd": 1
+    },
+    {
+      "fieldname": "description",
+      "fieldtype": "Text Editor",
+      "label": "Description"
+    },
+    {
+      "fieldname": "attachment",
+      "fieldtype": "Attach",
+      "label": "Attachment"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "report": 1,
+      "export": 1
+    },
+    {
+      "role": "Employee",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "if_owner": 1
+    }
+  ],
+  "autoname": "hash"
+}

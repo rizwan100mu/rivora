@@ -1,0 +1,39 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Notification",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "autoname": "field:notification_id",
+  "naming_rule": "By fieldname",
+  "is_submittable": 0,
+  "track_changes": 0,
+  "field_order": [
+    "notification_id",
+    "recipient",
+    "type",
+    "document_type",
+    "document_name",
+    "reference_type",
+    "reference_name",
+    "subject",
+    "message",
+    "read"
+  ],
+  "fields": [
+    {"fieldname": "notification_id", "fieldtype": "Data", "label": "Notification ID", "reqd": 1, "unique": 1, "hidden": 1},
+    {"fieldname": "recipient", "fieldtype": "Link", "label": "Recipient", "options": "User", "reqd": 1, "in_list_view": 1},
+    {"fieldname": "type", "fieldtype": "Data", "label": "Type"},
+    {"fieldname": "document_type", "fieldtype": "Link", "label": "Document Type", "options": "DocType"},
+    {"fieldname": "document_name", "fieldtype": "Dynamic Link", "label": "Document Name", "options": "document_type"},
+    {"fieldname": "reference_type", "fieldtype": "Link", "label": "Reference Type", "options": "DocType"},
+    {"fieldname": "reference_name", "fieldtype": "Dynamic Link", "label": "Reference Name", "options": "reference_type"},
+    {"fieldname": "subject", "fieldtype": "Data", "label": "Subject", "reqd": 1, "in_list_view": 1},
+    {"fieldname": "message", "fieldtype": "Small Text", "label": "Message"},
+    {"fieldname": "read", "fieldtype": "Check", "label": "Read", "default": "0"}
+  ],
+  "permissions": [
+    {"role": "System Manager", "read": 1, "report": 1}
+  ],
+  "sort_field": "creation",
+  "sort_order": "DESC"
+}

@@ -1,0 +1,3 @@
+recursive-include rivora *.json *.txt *.js *.css *.html *.svg *.csv
+recursive-include LICENSES *
+include LICENSE THIRD_PARTY_NOTICES.md

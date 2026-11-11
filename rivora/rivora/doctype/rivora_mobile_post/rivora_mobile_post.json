@@ -1,0 +1,118 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Post",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "field_order": [
+    "title",
+    "post_type",
+    "content",
+    "publish",
+    "user",
+    "employee",
+    "post_datetime",
+    "poll_start_date",
+    "poll_end_date",
+    "poll_closed",
+    "poll_options",
+    "poll_votes"
+  ],
+  "fields": [
+    {
+      "fieldname": "title",
+      "fieldtype": "Data",
+      "label": "Title",
+      "reqd": 1
+    },
+    {
+      "fieldname": "post_type",
+      "fieldtype": "Select",
+      "label": "Post Type",
+      "options": "Post\nPoll",
+      "default": "Post",
+      "reqd": 1
+    },
+    {
+      "fieldname": "content",
+      "fieldtype": "Text Editor",
+      "label": "Content"
+    },
+    {
+      "fieldname": "publish",
+      "fieldtype": "Check",
+      "label": "Publish",
+      "default": "0"
+    },
+    {
+      "fieldname": "user",
+      "fieldtype": "Link",
+      "label": "User",
+      "options": "User",
+      "read_only": 1
+    },
+    {
+      "fieldname": "employee",
+      "fieldtype": "Link",
+      "label": "Employee",
+      "options": "Employee",
+      "read_only": 1
+    },
+    {
+      "fieldname": "post_datetime",
+      "fieldtype": "Datetime",
+      "label": "Post Datetime",
+      "read_only": 1
+    },
+    {
+      "fieldname": "poll_start_date",
+      "fieldtype": "Date",
+      "label": "Poll Start Date"
+    },
+    {
+      "fieldname": "poll_end_date",
+      "fieldtype": "Date",
+      "label": "Poll End Date"
+    },
+    {
+      "fieldname": "poll_closed",
+      "fieldtype": "Check",
+      "label": "Poll Closed"
+    },
+    {
+      "fieldname": "poll_options",
+      "fieldtype": "Table",
+      "label": "Poll Options",
+      "options": "Rivora Mobile Poll Option"
+    },
+    {
+      "fieldname": "poll_votes",
+      "fieldtype": "Table",
+      "label": "Poll Votes",
+      "options": "Rivora Mobile Poll Vote",
+      "read_only": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "report": 1,
+      "export": 1
+    },
+    {
+      "role": "Employee",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "if_owner": 1
+    },
+    {
+      "role": "Employee",
+      "read": 1
+    }
+  ],
+  "autoname": "hash"
+}

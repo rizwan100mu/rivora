@@ -1,0 +1,21 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Entry Alert DocType",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "istable": 1,
+  "field_order": [
+    "document_type"
+  ],
+  "fields": [
+    {
+      "fieldname": "document_type",
+      "fieldtype": "Link",
+      "options": "DocType",
+      "label": "DocType",
+      "reqd": 1,
+      "in_list_view": 1
+    }
+  ],
+  "permissions": []
+}

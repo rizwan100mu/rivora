@@ -1,0 +1,200 @@
+{
+  "charts": [],
+  "content": "[{\"id\":\"tBazFTVVnr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Rivora</span>\",\"col\":12}},{\"id\":\"JhvATR9Kjh\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}},{\"id\":\"uWQdGpOpAW\",\"type\":\"card\",\"data\":{\"card_name\":\"Rivora Notifications\",\"col\":4}},{\"id\":\"41kJ2kgdCN\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters & Other\",\"col\":4}},{\"id\":\"ECxtL_sqpY\",\"type\":\"card\",\"data\":{\"card_name\":\"Employee Target\",\"col\":4}}]",
+  "creation": "2025-02-28 10:50:09.384631",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "color-energy-points",
+  "idx": 0,
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Rivora",
+  "links": [
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Settings",
+      "link_count": 2,
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora Settings",
+      "link_count": 0,
+      "link_to": "Rivora Settings",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora Notification Settings",
+      "link_count": 0,
+      "link_to": "Rivora Notification Settings",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora Notifications",
+      "link_count": 3,
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora Notification",
+      "link_count": 0,
+      "link_to": "Rivora Notification",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora Notification Template",
+      "link_count": 0,
+      "link_to": "Rivora Notification Template",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora Notification Log",
+      "link_count": 0,
+      "link_to": "Rivora Notification Log",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Masters & Other",
+      "link_count": 4,
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora Location",
+      "link_count": 0,
+      "link_to": "Rivora Location",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora Location Assignment",
+      "link_count": 0,
+      "link_to": "Rivora Location Assignment",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "HR Policies",
+      "link_count": 0,
+      "link_to": "Rivora Company Policy",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora Reminder Log",
+      "link_count": 0,
+      "link_to": "Rivora Reminder Log",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Employee Target",
+      "link_count": 4,
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora Employee Target Template",
+      "link_count": 0,
+      "link_to": "Rivora Employee Target Template",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora Employee Target Entry",
+      "link_count": 0,
+      "link_to": "Rivora Employee Target Entry",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Rivora SP Target Log",
+      "link_count": 0,
+      "link_to": "Rivora SP Target Log",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Target Management Tool",
+      "link_count": 0,
+      "link_to": "target-allocation-tool",
+      "link_type": "Page",
+      "onboard": 0,
+      "type": "Link"
+    }
+  ],
+  "modified": "2025-10-07 18:50:15.470319",
+  "modified_by": "Administrator",
+  "module": "Rivora",
+  "name": "Rivora",
+  "number_cards": [],
+  "owner": "Administrator",
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "roles": [
+    {
+      "role": "System Manager"
+    }
+  ],
+  "sequence_id": 33.0,
+  "shortcuts": [],
+  "title": "Rivora"
+}

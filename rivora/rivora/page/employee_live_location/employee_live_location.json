@@ -1,0 +1,17 @@
+{
+  "doctype": "Page",
+  "name": "employee-live-location",
+  "page_name": "employee-live-location",
+  "title": "Employee Live Location",
+  "module": "Rivora",
+  "standard": "Yes",
+  "system_page": 0,
+  "roles": [
+    {
+      "role": "System Manager"
+    },
+    {
+      "role": "HR Manager"
+    }
+  ]
+}

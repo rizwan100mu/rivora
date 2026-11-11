@@ -1,0 +1,11 @@
+{
+  "doctype": "Page",
+  "name": "employee-location-tracker",
+  "page_name": "employee-location-tracker",
+  "module": "Rivora",
+  "standard": "Yes",
+  "title": "Employee Live Location",
+  "roles": [],
+  "system_page": 0,
+  "modified": "2024-09-30 01:04:35.547612"
+}

@@ -1,0 +1,1787 @@
+{
+  "one_registered_app": "rivora",
+  "separate_ess_repository_required": false,
+  "all_app_doctypes_renamed_before_install": true,
+  "renamed_doctypes": 63,
+  "original_bundled_files": 296,
+  "mapped_files_present": 296,
+  "missing": [],
+  "files": [
+    {
+      "original_source": "background_jobs/__init__.py",
+      "rivora_path": "rivora/background_jobs/__init__.py",
+      "present": true,
+      "sha256": "17030d268a0bca02fb168a9f710b78a6a9eddf08f4791110989227088a417eda"
+    },
+    {
+      "original_source": "config/__init__.py",
+      "rivora_path": "rivora/config/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "config/desktop.py",
+      "rivora_path": "rivora/config/desktop.py",
+      "present": true,
+      "sha256": "f742e94c38295acecce5bcb293916a165c871a74d00605ccf2f25728604638e3"
+    },
+    {
+      "original_source": "config/docs.py",
+      "rivora_path": "rivora/config/docs.py",
+      "present": true,
+      "sha256": "9fe700d0c105bec5ec2b6ed6bf13accd05a769ab3bb7ce8b50017e11f0d62a35"
+    },
+    {
+      "original_source": "constants/custom_fields.py",
+      "rivora_path": "rivora/constants/custom_fields.py",
+      "present": true,
+      "sha256": "e5a1322fabaf2254ae98fe4dba437122f979f98d93738ac1f56c8929f6bc4f5a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/company_policy/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_company_policy/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/company_policy/company_policy.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_company_policy/rivora_company_policy.js",
+      "present": true,
+      "sha256": "b81569813b8af6b128a86fb2f08ecc295a6cbd1c932c4280990a65a2944a4266"
+    },
+    {
+      "original_source": "employee_self_service/doctype/company_policy/company_policy.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_company_policy/rivora_company_policy.json",
+      "present": true,
+      "sha256": "2114afdc0bed58e0e3b26573e48df5ad6c0e04e1cc47bfbcba3ae0ea8249d60d"
+    },
+    {
+      "original_source": "employee_self_service/doctype/company_policy/company_policy.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_company_policy/rivora_company_policy.py",
+      "present": true,
+      "sha256": "8fc887286dcf77539551a28c3d10edce2a72236cc821efa1063334d4460bfc2d"
+    },
+    {
+      "original_source": "employee_self_service/doctype/company_policy/test_company_policy.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_company_policy/test_rivora_company_policy.py",
+      "present": true,
+      "sha256": "b1b876b195ea47773ddba6396ce726511712ba5d3fb24bd7e3fc6cf2f6141066"
+    },
+    {
+      "original_source": "employee_self_service/doctype/company_policy_details/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_company_policy_details/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/company_policy_details/company_policy_details.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_company_policy_details/rivora_company_policy_details.json",
+      "present": true,
+      "sha256": "5c5af877017cc603e5cc0c16870dd335d783c88e217f3dbb829df8cd9ca2a440"
+    },
+    {
+      "original_source": "employee_self_service/doctype/company_policy_details/company_policy_details.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_company_policy_details/rivora_company_policy_details.py",
+      "present": true,
+      "sha256": "63c1d8fcb25b6571f0bb788eac4f87d46a81328de2f3617df3688e2f45a4a55a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_details_update_request/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_details_update_request/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_details_update_request/employee_details_update_request.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_details_update_request/rivora_employee_details_update_request.js",
+      "present": true,
+      "sha256": "45da9b881f667cbec9330a36b3e1b92db7296ea45ffc10a4a2d90875fb707d8a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_details_update_request/employee_details_update_request.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_details_update_request/rivora_employee_details_update_request.json",
+      "present": true,
+      "sha256": "3c50aab79e28f5c5977c2ab097bbf3143f108e4a330df47dfe2e35640727acb2"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_details_update_request/employee_details_update_request.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_details_update_request/rivora_employee_details_update_request.py",
+      "present": true,
+      "sha256": "ea3fd54baf0ab54bb320696aa3333c631dc11b61c002d3c051ac5b6ec779b66e"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_details_update_request/employee_details_update_request_list.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_details_update_request/rivora_employee_details_update_request_list.js",
+      "present": true,
+      "sha256": "b5ccef72bea1c60321e9f8c5b4f7e0e747556f25fa378a66f0756f79273e41cf"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_details_update_request/test_employee_details_update_request.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_details_update_request/test_rivora_employee_details_update_request.py",
+      "present": true,
+      "sha256": "e0590748b426f7c8a5bf43f6aaccc258bc6460f82ff609f1b5fbe854729e1b45"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_device_info/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_device_info/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_device_info/employee_device_info.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_device_info/rivora_employee_device_info.js",
+      "present": true,
+      "sha256": "e8a0b79b7b7ec1e94c5c45eb9ccbaea5651f23e29eca0825d720dad9202400ab"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_device_info/employee_device_info.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_device_info/rivora_employee_device_info.json",
+      "present": true,
+      "sha256": "a4d901ff13c8bbd2366465044333176a4a8bb4f9a02ced9caec161e8093bada6"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_device_info/employee_device_info.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_device_info/rivora_employee_device_info.py",
+      "present": true,
+      "sha256": "124338da3bf56cb15c97a4b5f0214f883705df5c8e04fee07e2c5b016dea7d90"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_device_info/test_employee_device_info.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_device_info/test_rivora_employee_device_info.py",
+      "present": true,
+      "sha256": "f3b7523551f9bbef21478033cf72088f6d1b4d667e11b845a5eb156eb0d44c95"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_device_registration/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_device_registration/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_device_registration/employee_device_registration.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_device_registration/rivora_employee_device_registration.js",
+      "present": true,
+      "sha256": "2d69253e01d8ac7861d94d00d76eb908211e29067215b2b10f573ea3b524894a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_device_registration/employee_device_registration.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_device_registration/rivora_employee_device_registration.json",
+      "present": true,
+      "sha256": "ba91d1a0fcff982a22411b5ad77df4a2aa7610eb392280b11e9ebedce152ac96"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_device_registration/employee_device_registration.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_device_registration/rivora_employee_device_registration.py",
+      "present": true,
+      "sha256": "199fb56360b6cc861869b9134d667cea0caf70dfc0cb2369e1a8d2716ab7616e"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_device_registration/test_employee_device_registration.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_device_registration/test_rivora_employee_device_registration.py",
+      "present": true,
+      "sha256": "de566f750da5192d2b1b6d7da0f213f35eb46c55e40820eee2016b8f81fe7f2c"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_location/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_location/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_location/employee_location.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_location/rivora_employee_location.js",
+      "present": true,
+      "sha256": "08aca1b65974e7c1319f7f265536a9efef700bca0b8d2b4377984357781eba12"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_location/employee_location.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_location/rivora_employee_location.json",
+      "present": true,
+      "sha256": "1a8b295c9a21747c777e45cbd1f1d6c7016e22c739d6065eafba8e2299332667"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_location/employee_location.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_location/rivora_employee_location.py",
+      "present": true,
+      "sha256": "f7b2b6ad148dc8c41a658e72678b0246735c52ef1b4e3c4b5edd5280cd5e571a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_location/test_employee_location.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_location/test_rivora_employee_location.py",
+      "present": true,
+      "sha256": "6dcd4867d5775e266a9fe2d9b26d12c82e7a203c3b90dc833fafd49b292dfb47"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_location_details/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_location_details/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_location_details/employee_location_details.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_location_details/rivora_employee_location_details.json",
+      "present": true,
+      "sha256": "8ddaa864c4f704631cfe561005a15bef9331e46ffa0dc837fd800a1b50f00221"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_location_details/employee_location_details.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_location_details/rivora_employee_location_details.py",
+      "present": true,
+      "sha256": "c83a684e1cd1c70cf2ad87a9343f08a8f9e07ca830804f92fbedf95c0704c5a9"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_self_service_settings/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_settings/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_self_service_settings/employee_self_service_settings.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_settings/rivora_settings.js",
+      "present": true,
+      "sha256": "1e1831649ea0920e1d5ce58ff8f8da6288fb650d2f204d2dd5b621ecd50a7a0c"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_self_service_settings/employee_self_service_settings.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_settings/rivora_settings.json",
+      "present": true,
+      "sha256": "004ae9f7791bc24aabd26e3b4217ef8337d72cca9c4843f38143863af841a5ab"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_self_service_settings/employee_self_service_settings.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_settings/rivora_settings.py",
+      "present": true,
+      "sha256": "c012f0397cbc37fbec634163dfbbbc49d1e0d601cc95b1b9567c26f4d7e5fe9b"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_self_service_settings/test_employee_self_service_settings.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_settings/test_rivora_settings.py",
+      "present": true,
+      "sha256": "814a732868f7ec16c6775db1795f7d682f8be84dd2a25e77f0ac0a77a73bc13d"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_target_entry/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_target_entry/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_target_entry/employee_target_entry.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_target_entry/rivora_employee_target_entry.js",
+      "present": true,
+      "sha256": "4ddf6134a18ad81d78c63e48e88068b46020ed2ef00ebbaeb1a5dbe282e6d5a9"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_target_entry/employee_target_entry.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_target_entry/rivora_employee_target_entry.json",
+      "present": true,
+      "sha256": "5c124bf57089f1e650a88f7e24dc7e5d343f98776f9c73fbd64db1508981ceaa"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_target_entry/employee_target_entry.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_target_entry/rivora_employee_target_entry.py",
+      "present": true,
+      "sha256": "08a087b07843b570a8dfd0ac48c5c99249251cc8708489094b3ea0e92942b17d"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_target_entry/test_employee_target_entry.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_target_entry/test_rivora_employee_target_entry.py",
+      "present": true,
+      "sha256": "52056c71d33dc114a655f5705fa40de8c3f236aaf07ecdf1b0f58b94293eb91c"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_target_template/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_target_template/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_target_template/employee_target_template.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_target_template/rivora_employee_target_template.js",
+      "present": true,
+      "sha256": "ad33c21694e78abac98c9fc08116070cfb83aba1abca8efb43a68317ce0eb01a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_target_template/employee_target_template.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_target_template/rivora_employee_target_template.json",
+      "present": true,
+      "sha256": "14fff708a7d29f12ccbe39e6c6ff2144e65439baeb92fbacbcd43c53ef683b46"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_target_template/employee_target_template.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_target_template/rivora_employee_target_template.py",
+      "present": true,
+      "sha256": "5b61697d326a280a50f8a4dba0e2782bf14457a2fec8b77a958dcf06c767f512"
+    },
+    {
+      "original_source": "employee_self_service/doctype/employee_target_template/test_employee_target_template.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_employee_target_template/test_rivora_employee_target_template.py",
+      "present": true,
+      "sha256": "e89a65fcd129e46db871b13d9df5762efa17ec2bb1acab14356164be6bc6579b"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_attendance_log_settings/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_attendance_log_settings/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_attendance_log_settings/ess_attendance_log_settings.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_attendance_log_settings/rivora_attendance_log_settings.js",
+      "present": true,
+      "sha256": "5fdb82b029a5c2b00970e4844e0e66b67f82567c02dd9bb56219e6f00193851f"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_attendance_log_settings/ess_attendance_log_settings.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_attendance_log_settings/rivora_attendance_log_settings.json",
+      "present": true,
+      "sha256": "f12e873689bac8d740d45e565e40d1ea8b0e90bde3902c03d0452477bb57fb63"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_attendance_log_settings/ess_attendance_log_settings.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_attendance_log_settings/rivora_attendance_log_settings.py",
+      "present": true,
+      "sha256": "bfae4e8c6c4989aed741abe16f96c0db7ba14f7cb587223c290488912808ad49"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_attendance_log_settings/test_ess_attendance_log_settings.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_attendance_log_settings/test_rivora_attendance_log_settings.py",
+      "present": true,
+      "sha256": "8b293b6c97cbfa1e52b4c53d03f52961cd22910429afbd02a764375a48d1989b"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_custom_field/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_custom_field/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_custom_field/ess_custom_field.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_custom_field/rivora_custom_field.js",
+      "present": true,
+      "sha256": "11607fc9131ba920cf5083ad8dba96538e9d4bf825b7b567343d647dedd2267f"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_custom_field/ess_custom_field.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_custom_field/rivora_custom_field.json",
+      "present": true,
+      "sha256": "153fc5a76144ba3164407bd38b1e6e90eae8b43da4eba4d12d07ff54504b6b30"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_custom_field/ess_custom_field.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_custom_field/rivora_custom_field.py",
+      "present": true,
+      "sha256": "fbbb6159230cb239fc3082dbb454d320c4ee3654880b013ce2ff545300a64c66"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_custom_field/test_ess_custom_field.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_custom_field/test_rivora_custom_field.py",
+      "present": true,
+      "sha256": "8598a1aa85a7abea296964bf7ffd6b53df8c541ed9a8c89d7093ca91c429d809"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_custom_field_details/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_custom_field_details/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_custom_field_details/ess_custom_field_details.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_custom_field_details/rivora_custom_field_details.json",
+      "present": true,
+      "sha256": "2880ed0e4531fd5027e8ae0b99e4f0e8fcffa4ce9559282626d9410a615c5e68"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_custom_field_details/ess_custom_field_details.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_custom_field_details/rivora_custom_field_details.py",
+      "present": true,
+      "sha256": "504f11fcc4c3c7110f99439c9890712b30fbd5d9c598b4e2b4ea52b61c67d30d"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_documents/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_documents/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_documents/ess_documents.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_documents/rivora_documents.js",
+      "present": true,
+      "sha256": "c86da2490812693c17c244e6b261a630be2f8e9a0306908dda114af4b51bdb32"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_documents/ess_documents.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_documents/rivora_documents.json",
+      "present": true,
+      "sha256": "f8057fd258faa355bc78e685dd49fab825389ca50777a00ffc85da380e151ff5"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_documents/ess_documents.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_documents/rivora_documents.py",
+      "present": true,
+      "sha256": "407ff9ab53b24f16d7c5ce5e873f019d82bf981ff7260de22d032ab504378fde"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_documents/test_ess_documents.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_documents/test_rivora_documents.py",
+      "present": true,
+      "sha256": "19e36530c7993ae98977c5defcaff9733b9d848709efbbeaea88e2dd1ae902ef"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_language/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_language/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_language/ess_language.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_language/rivora_language.json",
+      "present": true,
+      "sha256": "5c640e5fe844eb540139c75c064bbc56a5d43a5e30880d1b33afd6dc9cc652ea"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_language/ess_language.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_language/rivora_language.py",
+      "present": true,
+      "sha256": "055ccc0c5121b4abcf4983ff5d72fc02297e10d9bbd4ec7dd222c05bf42db820"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_location/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_location/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_location/ess_location.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_location/rivora_location.js",
+      "present": true,
+      "sha256": "df94973fb6fad6aa42e9013e4c44ffddaa2a688c11e1d3300b887b72ede3a5ae"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_location/ess_location.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_location/rivora_location.json",
+      "present": true,
+      "sha256": "6c98f5fd94ca8d665dca1a52392e7012b4b3fb529d2223d4c42b034c2ee4e3dc"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_location/ess_location.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_location/rivora_location.py",
+      "present": true,
+      "sha256": "7b8eb1319af70b009242c9536565f8e74c84bd1cf834a837e92c1fbf693195e7"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_location/test_ess_location.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_location/test_rivora_location.py",
+      "present": true,
+      "sha256": "3a923216235d909a7805c2573de879585d016ef38569a14cd427cfb239caf77f"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_location_assignment/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_location_assignment/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_location_assignment/ess_location_assignment.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_location_assignment/rivora_location_assignment.js",
+      "present": true,
+      "sha256": "daadf488f2886d6e5c71a0eae77dd7038e8f8e5aec81614cf6da00466cf1c13e"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_location_assignment/ess_location_assignment.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_location_assignment/rivora_location_assignment.json",
+      "present": true,
+      "sha256": "f20aae9aed79dcd6dbf8979cd9073ab1af8d11d53b8ba9204eff687e6f853b6e"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_location_assignment/ess_location_assignment.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_location_assignment/rivora_location_assignment.py",
+      "present": true,
+      "sha256": "8c6c8a4263b88b3ac5ca57f188f4679a9e074a94dc93ec23e1ddd461ff9bb5f9"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_location_assignment/test_ess_location_assignment.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_location_assignment/test_rivora_location_assignment.py",
+      "present": true,
+      "sha256": "64743d25e19f2e365e5e019198a33d177c81fa315a12b2c730634322bfe2473c"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification/ess_notification.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification/rivora_notification.js",
+      "present": true,
+      "sha256": "f11aeeaf1b686c92fefed8fff4f54e6b5ab2ddcea52fbc950d1aa570cd27d188"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification/ess_notification.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification/rivora_notification.json",
+      "present": true,
+      "sha256": "42a85844c3c665d1109bd37209f6ecdf90969e3ace9cbdf4ed5cf036d2434dcd"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification/ess_notification.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification/rivora_notification.py",
+      "present": true,
+      "sha256": "1140af4ddc0947b4cb1e00014fe5987a6a4ea33d6d663614348b388573b9a2b8"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification/test_ess_notification.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification/test_rivora_notification.py",
+      "present": true,
+      "sha256": "0a82568c0db3ad3797b5a278b7d8560f9486bb060a481d101bf806fcd2fbfa8e"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_log/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_log/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_log/ess_notification_log.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_log/rivora_notification_log.js",
+      "present": true,
+      "sha256": "eb499ea06b7e259f022b4d8f70a5b413b939d1aed173f4802234df009417a531"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_log/ess_notification_log.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_log/rivora_notification_log.json",
+      "present": true,
+      "sha256": "ffdb4aa83f76a2425150986ecb599efde56537e9128b09036555a82e3692ae5f"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_log/ess_notification_log.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_log/rivora_notification_log.py",
+      "present": true,
+      "sha256": "6e92a3a29ada37bb0876dab29fcac33e6b32dccf4b5b4db748dfd97f739db13a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_log/test_ess_notification_log.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_log/test_rivora_notification_log.py",
+      "present": true,
+      "sha256": "1cd59ba715c19a589525812e3c2cf4e3f71be452bebf300b7c3becf69108df2a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_recipient/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_recipient/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_recipient/ess_notification_recipient.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_recipient/rivora_notification_recipient.json",
+      "present": true,
+      "sha256": "10aa1f99533a2a0ffdc0cac3997dd8191f94c17aa30c4f975412332f2027a3ac"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_recipient/ess_notification_recipient.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_recipient/rivora_notification_recipient.py",
+      "present": true,
+      "sha256": "235b464cc7fe28a5f6e69b4af41ff4dba33b9dcb3b55cc36c515921805728bd7"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_settings/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_settings/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_settings/ess_notification_settings.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_settings/rivora_notification_settings.js",
+      "present": true,
+      "sha256": "6f4a5f3f1c8bd8fc519757611bbded2f3ad249581d86cf91b1f6edf127156cea"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_settings/ess_notification_settings.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_settings/rivora_notification_settings.json",
+      "present": true,
+      "sha256": "48e1bc78ca76c5677b3a1bc65a8c43168c18f34be37257d4f35f339dbc62036a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_settings/ess_notification_settings.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_settings/rivora_notification_settings.py",
+      "present": true,
+      "sha256": "3d8702299f3e7f0239b1a68532fdb443eb075527d891c68e001f62d19881cd6e"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_settings/test_ess_notification_settings.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_settings/test_rivora_notification_settings.py",
+      "present": true,
+      "sha256": "83c0c3e5c613dbf4beee72f68dac5ed6b2435ba846575ed1b6a767a539b817f0"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_template/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_template/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_template/ess_notification_template.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_template/rivora_notification_template.js",
+      "present": true,
+      "sha256": "2231e69464a2a3ecb2348a028d633c2a81b892b56c543a96ab659cf15671662a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_template/ess_notification_template.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_template/rivora_notification_template.json",
+      "present": true,
+      "sha256": "ffa01d333e67208a0d67e759e4e05dbac40049370eafd81e2790532d8c1a4f3e"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_template/ess_notification_template.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_template/rivora_notification_template.py",
+      "present": true,
+      "sha256": "a8fd8887d8dc20cd2636b6d3c8e77c7def71fb0c41e4e22c99e21f41f02b69ad"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_notification_template/test_ess_notification_template.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_template/test_rivora_notification_template.py",
+      "present": true,
+      "sha256": "933b40c0ac5cf2474726d159c181673ae71ccf75e12418e0dc649e971aa16825"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_post/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post/ess_post.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_post/rivora_post.js",
+      "present": true,
+      "sha256": "59d25346ea680867400dcccebb17ba4099d4a6f5ce017fd4158c517dae8b08fa"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post/ess_post.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_post/rivora_post.json",
+      "present": true,
+      "sha256": "81a2d87dcd59c58992a22fa67097e22ba384a7a4ac8b96a0e85d3d07567612de"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post/ess_post.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_post/rivora_post.py",
+      "present": true,
+      "sha256": "a646d51e7da720131a47988d3f77be94ad6143ba2b403d2eb920465672097049"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post/test_ess_post.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_post/test_rivora_post.py",
+      "present": true,
+      "sha256": "95e575843f56ee1bcae1816a622f11f729df58320fbf72599acf8827ac3d1430"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post_attachment/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_post_attachment/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post_attachment/ess_post_attachment.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_post_attachment/rivora_post_attachment.js",
+      "present": true,
+      "sha256": "b57d36bd587e634c4c2f67873fe1848903e8bc6eb389f6d1eb64c827af7266e4"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post_attachment/ess_post_attachment.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_post_attachment/rivora_post_attachment.json",
+      "present": true,
+      "sha256": "3b962120228746387f15cc76e6cf94572c57c0a35974ec7409e927f1c8edc7d4"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post_attachment/ess_post_attachment.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_post_attachment/rivora_post_attachment.py",
+      "present": true,
+      "sha256": "25b23b9d0a18cecc091bb0af522f24ab3141a658734b3039d0d687f0f7091a4f"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post_attachment/test_ess_post_attachment.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_post_attachment/test_rivora_post_attachment.py",
+      "present": true,
+      "sha256": "ff201c9fb3f0e5850dae5f986cef329f1355f714923eb20c566983e387671789"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post_poll_log/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_post_poll_log/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post_poll_log/ess_post_poll_log.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_post_poll_log/rivora_post_poll_log.json",
+      "present": true,
+      "sha256": "6fc2a51064dc89afa94ee5d288c30089fa0494a8c5158a63b575d447bebfbd91"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post_poll_log/ess_post_poll_log.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_post_poll_log/rivora_post_poll_log.py",
+      "present": true,
+      "sha256": "f24d4fa00618bd92f50eb6e67a0b028af6c2f7f5ab48f9e94630cd0159c0ee3b"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post_poll_options/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_post_poll_options/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post_poll_options/ess_post_poll_options.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_post_poll_options/rivora_post_poll_options.json",
+      "present": true,
+      "sha256": "b83a2e583d936dcf2bfdfdffc72ac422e1b083b63bed3132b9e490aebed093e0"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_post_poll_options/ess_post_poll_options.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_post_poll_options/rivora_post_poll_options.py",
+      "present": true,
+      "sha256": "fccc243f9d60a78589fb4a92062fafa68c655dd7cbe625e865d427805bb41192"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_reminder_log/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_reminder_log/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_reminder_log/ess_reminder_log.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_reminder_log/rivora_reminder_log.js",
+      "present": true,
+      "sha256": "6e43ec64cc39707f829bce5acfe3de42c7403c6e9b6ccc05af9c417e2095632e"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_reminder_log/ess_reminder_log.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_reminder_log/rivora_reminder_log.json",
+      "present": true,
+      "sha256": "84bfeffa6e39d313aee98a86334af7bd7e81fe30286f925ae9ec39a6b4b3d3a0"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_reminder_log/ess_reminder_log.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_reminder_log/rivora_reminder_log.py",
+      "present": true,
+      "sha256": "42aa06accbbdab13f46dcdd4728e6e07ad80ef3c6cbcfd6f5063b11cba01f368"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_reminder_log/test_ess_reminder_log.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_reminder_log/test_rivora_reminder_log.py",
+      "present": true,
+      "sha256": "9a066d0aacf278d34469e3ef0e5d96df81871e32d2c2c186d87ae493faa93f57"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_target_settings/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_target_settings/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_target_settings/ess_target_settings.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_target_settings/rivora_target_settings.js",
+      "present": true,
+      "sha256": "f7ceef33d4f56a3dc2c4a4785e25cf9990dda7ae5bc85bb7223d8054afb9289b"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_target_settings/ess_target_settings.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_target_settings/rivora_target_settings.json",
+      "present": true,
+      "sha256": "10c27b4a3f631591973821249fb55ac1ec13599af7bbe9c809666724d588e1da"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_target_settings/ess_target_settings.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_target_settings/rivora_target_settings.py",
+      "present": true,
+      "sha256": "51b145e1b326a31cfb7859d1b32349fe9efb32f5ff3b461fa7bd75dce58a05d7"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_target_settings/test_ess_target_settings.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_target_settings/test_rivora_target_settings.py",
+      "present": true,
+      "sha256": "b9196227546cb0f84f872e409da9e3985dfd891db208401e35bbce2e3fe5d133"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_translation/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_translation/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_translation/ess_translation.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_translation/rivora_translation.js",
+      "present": true,
+      "sha256": "568da1bf8e297f7fb9902a7cea244dd85046d433e1e7a79da4bfb921a2ab3a4c"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_translation/ess_translation.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_translation/rivora_translation.json",
+      "present": true,
+      "sha256": "77d2bb4df6191904d248d12df573a8775e8fb9e687a8cf40473479e0e446f57f"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_translation/ess_translation.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_translation/rivora_translation.py",
+      "present": true,
+      "sha256": "dbfb0fc57bf6e7c22184edd292edf9359d1171981171e540f2e0027d94c68c54"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_translation/test_ess_translation.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_translation/test_rivora_translation.py",
+      "present": true,
+      "sha256": "bc4773bf0e282c7c40cc78e4a21eed751648d2068c642db9b086b8bba95711bc"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_workflow_documents/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_workflow_documents/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_workflow_documents/ess_workflow_documents.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_workflow_documents/rivora_workflow_documents.json",
+      "present": true,
+      "sha256": "599a69b47fea04f0895ec78d1d04c6cbb566349a62bd5b9dbd92b246e431b258"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_workflow_documents/ess_workflow_documents.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_workflow_documents/rivora_workflow_documents.py",
+      "present": true,
+      "sha256": "49dfd82ad4b745ea94a62a2a4e2641655db7ffc7937e123e1ed85bfb57dfb0ee"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_workflow_settings/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_workflow_settings/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_workflow_settings/ess_workflow_settings.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_workflow_settings/rivora_workflow_settings.js",
+      "present": true,
+      "sha256": "49f7ab9f5742bbdf1eacfe5115182fdea5af03f53a52592d20f2bcb4c148ee26"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_workflow_settings/ess_workflow_settings.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_workflow_settings/rivora_workflow_settings.json",
+      "present": true,
+      "sha256": "b7a2dcc70979d248b6900d1271e9d36a7688033da9cdaac3a4b5a9f09929ee31"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_workflow_settings/ess_workflow_settings.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_workflow_settings/rivora_workflow_settings.py",
+      "present": true,
+      "sha256": "6addf70b5452257ea35660e78419d9bd8175b952d00fe27a29ec54aed15e44c2"
+    },
+    {
+      "original_source": "employee_self_service/doctype/ess_workflow_settings/test_ess_workflow_settings.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_workflow_settings/test_rivora_workflow_settings.py",
+      "present": true,
+      "sha256": "7315509aef5f5c34fbc8c2a1a13fc96468366e125a052f5e32b406b1b499d0a3"
+    },
+    {
+      "original_source": "employee_self_service/doctype/item_group_wise_target_list/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_item_group_wise_target_list/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/item_group_wise_target_list/item_group_wise_target_list.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_item_group_wise_target_list/rivora_item_group_wise_target_list.json",
+      "present": true,
+      "sha256": "4ddbe0ad299f89fd7ebab5cd5097a75ba83b7c0391fe3720e3cde6764bddaed0"
+    },
+    {
+      "original_source": "employee_self_service/doctype/item_group_wise_target_list/item_group_wise_target_list.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_item_group_wise_target_list/rivora_item_group_wise_target_list.py",
+      "present": true,
+      "sha256": "437173efc8a1c61dc49b075bd7a66a250cd0e201e544d7d08c9ace509efece14"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board/notice_board.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board/rivora_notice_board.js",
+      "present": true,
+      "sha256": "a9c3f7f7250fa018e2fe187b2b3c3c422457dc6efbef0ce5f3fdeeeaf9d8f45b"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board/notice_board.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board/rivora_notice_board.json",
+      "present": true,
+      "sha256": "c8de1b0899c13626018f1c26fdc81f8a241f4fd88c2ac4c684d59510bc512bab"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board/notice_board.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board/rivora_notice_board.py",
+      "present": true,
+      "sha256": "c433899ca5eb784d8c487e64a6251d55aa59be01a8013e5f788e8b0acb132d67"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board/test_notice_board.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board/test_rivora_notice_board.py",
+      "present": true,
+      "sha256": "511673688e40329b88cd85b1effdc00c6fc631fb44e5d594f542ba0c4c57aea3"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_employee/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_employee/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_employee/notice_board_employee.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_employee/rivora_notice_board_employee.json",
+      "present": true,
+      "sha256": "67a8f32bfdc3c0ea75cf07f1700fe32347fb095e080c72c2abb4ab332ba66b60"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_employee/notice_board_employee.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_employee/rivora_notice_board_employee.py",
+      "present": true,
+      "sha256": "45b3ef75ecc238e73fa738c377b5979563663ce383e09a81eaba24630d62249c"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_template/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_template/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_template/notice_board_template.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_template/rivora_notice_board_template.js",
+      "present": true,
+      "sha256": "9ddde7ed639cd069cbd3c26586679a0fec6b29253326ea9a23d8e3e68a36c3a9"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_template/notice_board_template.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_template/rivora_notice_board_template.json",
+      "present": true,
+      "sha256": "219eaa388dadfc009b02b811bcaf1fe4aea86a91f0494816cfecaa8cc3286a2a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_template/notice_board_template.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_template/rivora_notice_board_template.py",
+      "present": true,
+      "sha256": "018dd49d148ae5bc0801be22b44fe98fdd86ffa801415d796307b212acf6c597"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_template/test_notice_board_template.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_template/test_rivora_notice_board_template.py",
+      "present": true,
+      "sha256": "c27552d3b55d07a032a2c59744c080c230acc586242de8a20a02c97414d83866"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_template_type/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_template_type/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_template_type/notice_board_template_type.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_template_type/rivora_notice_board_template_type.js",
+      "present": true,
+      "sha256": "a38f320e73aec18d0ccc704884c7bc71f74069df798579f441af79ab02e67527"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_template_type/notice_board_template_type.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_template_type/rivora_notice_board_template_type.json",
+      "present": true,
+      "sha256": "d0b58fdc29e5a2134f790fa282838c9f2a3fba2da415f46c3992e160d1501695"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_template_type/notice_board_template_type.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_template_type/rivora_notice_board_template_type.py",
+      "present": true,
+      "sha256": "2e7d9942e6c1d096beadc955d11c5e0f4f6d7ccd39fa5c19d254b031d14d6209"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notice_board_template_type/test_notice_board_template_type.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notice_board_template_type/test_rivora_notice_board_template_type.py",
+      "present": true,
+      "sha256": "6b83f128c806a255d8503093561c7a4a54ea7e9cd53bcf4e952af79127a414ce"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notification_user/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_user/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notification_user/notification_user.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_user/rivora_notification_user.json",
+      "present": true,
+      "sha256": "74f602e3b819ca66f8672112ee35f34502fd768bd3cf03c66c92fdeb187f2a68"
+    },
+    {
+      "original_source": "employee_self_service/doctype/notification_user/notification_user.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_notification_user/rivora_notification_user.py",
+      "present": true,
+      "sha256": "5d19c03d04e8b04d2f3f1375e2782d3ee42623d70109b1daacc70bbaa08c1633"
+    },
+    {
+      "original_source": "employee_self_service/doctype/office_geofencing/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_office_geofencing/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/office_geofencing/office_geofencing.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_office_geofencing/rivora_office_geofencing.js",
+      "present": true,
+      "sha256": "613344439320402284dbcc0a7ce4c9e276a351f57e39e798701c539a526cbc47"
+    },
+    {
+      "original_source": "employee_self_service/doctype/office_geofencing/office_geofencing.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_office_geofencing/rivora_office_geofencing.json",
+      "present": true,
+      "sha256": "248cdeb303a11d7b2d81ff30065108bc9738d6ca4017738ec78df7045686dbd9"
+    },
+    {
+      "original_source": "employee_self_service/doctype/office_geofencing/office_geofencing.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_office_geofencing/rivora_office_geofencing.py",
+      "present": true,
+      "sha256": "5db140232ef9785a4528087ebb9c44e684ba79ac055665b811b3582b7ba0122e"
+    },
+    {
+      "original_source": "employee_self_service/doctype/office_geofencing/test_office_geofencing.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_office_geofencing/test_rivora_office_geofencing.py",
+      "present": true,
+      "sha256": "cf6be31fb427686a9e6938e36ecf73f31d80c3b8a683ff845c0b1d13319154a2"
+    },
+    {
+      "original_source": "employee_self_service/doctype/petty_expense/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_petty_expense/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/petty_expense/petty_expense.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_petty_expense/rivora_petty_expense.js",
+      "present": true,
+      "sha256": "9135c1b1d84626db1c973e1fa799b6cff4c7dd0f894847a170c5be567d4b320c"
+    },
+    {
+      "original_source": "employee_self_service/doctype/petty_expense/petty_expense.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_petty_expense/rivora_petty_expense.json",
+      "present": true,
+      "sha256": "ea2dfa44afa335bf8c824942153db9b0ec66b97027dc5a6db1a399ed0ce2d810"
+    },
+    {
+      "original_source": "employee_self_service/doctype/petty_expense/petty_expense.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_petty_expense/rivora_petty_expense.py",
+      "present": true,
+      "sha256": "b32b2b436463414eb0449b0043e85842afd1c0ab59df73e3339114f33e312e46"
+    },
+    {
+      "original_source": "employee_self_service/doctype/petty_expense_type/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_petty_expense_type/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/petty_expense_type/petty_expense_type.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_petty_expense_type/rivora_petty_expense_type.js",
+      "present": true,
+      "sha256": "eacf316f34481af1af474e3d5a38329abd94097153722f6e2484861cea9a52a3"
+    },
+    {
+      "original_source": "employee_self_service/doctype/petty_expense_type/petty_expense_type.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_petty_expense_type/rivora_petty_expense_type.json",
+      "present": true,
+      "sha256": "e34a7c2b7d2f5cd8c002fb886f40b925e2234b9ceeca96e77c97e6bfd3bffc76"
+    },
+    {
+      "original_source": "employee_self_service/doctype/petty_expense_type/petty_expense_type.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_petty_expense_type/rivora_petty_expense_type.py",
+      "present": true,
+      "sha256": "096b820094ed7f2385b59999f0041f58cd32902d5eb7a9e048c87d3ba7b6df1a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/petty_expense_type/test_petty_expense_type.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_petty_expense_type/test_rivora_petty_expense_type.py",
+      "present": true,
+      "sha256": "0aee2382899497eb1c7253c3615e6a1d9d7449f7bda7f56cc3ce884bb85feb9a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/push_notification/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_push_notification/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/push_notification/push_notification.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_push_notification/rivora_push_notification.js",
+      "present": true,
+      "sha256": "f016cd7d079efcf22a38b6d26e27c73b85843f07ca22b35a5eeca265b5796d79"
+    },
+    {
+      "original_source": "employee_self_service/doctype/push_notification/push_notification.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_push_notification/rivora_push_notification.json",
+      "present": true,
+      "sha256": "25ce0ab499f45ddfecc88f2e58123657e99eb50aae6537a7d367bb0a321cb1b9"
+    },
+    {
+      "original_source": "employee_self_service/doctype/push_notification/push_notification.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_push_notification/rivora_push_notification.py",
+      "present": true,
+      "sha256": "400e76bdae68a6fc75d02ce578d3dad1bfdfa115d6e28d15e81cffb455bea7ef"
+    },
+    {
+      "original_source": "employee_self_service/doctype/push_notification/test_push_notification.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_push_notification/test_rivora_push_notification.py",
+      "present": true,
+      "sha256": "599c6d9488dcf4d68f35d661574d2b1f59eb54efdc191dd6c727aacb1d63a9fd"
+    },
+    {
+      "original_source": "employee_self_service/doctype/sp_target_log/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_sp_target_log/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/sp_target_log/sp_target_log.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_sp_target_log/rivora_sp_target_log.js",
+      "present": true,
+      "sha256": "87936a14b34bb4e67c32c625476e5aa76f9c1be46aa1e4e2d9fe6b824831c375"
+    },
+    {
+      "original_source": "employee_self_service/doctype/sp_target_log/sp_target_log.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_sp_target_log/rivora_sp_target_log.json",
+      "present": true,
+      "sha256": "78ddd20f5929ab3e4946d40af8b338b1db983f1b84364610ee3dc8518affa5d5"
+    },
+    {
+      "original_source": "employee_self_service/doctype/sp_target_log/sp_target_log.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_sp_target_log/rivora_sp_target_log.py",
+      "present": true,
+      "sha256": "6fc32d99f4e8e5940dc13aea34fdc3e7a88ad7a58e480c7200232c0cc8978e3f"
+    },
+    {
+      "original_source": "employee_self_service/doctype/sp_target_log/test_sp_target_log.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_sp_target_log/test_rivora_sp_target_log.py",
+      "present": true,
+      "sha256": "779ff7c86253172f64a9e07c642ce500161e079711c0c348bfa7a76d4ba4d8dd"
+    },
+    {
+      "original_source": "employee_self_service/doctype/target_item_group_list/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_target_item_group_list/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/target_item_group_list/target_item_group_list.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_target_item_group_list/rivora_target_item_group_list.json",
+      "present": true,
+      "sha256": "ce426a332ed64f561e61147335c355df00d6861e99d522bd34f050611f598d6a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/target_item_group_list/target_item_group_list.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_target_item_group_list/rivora_target_item_group_list.py",
+      "present": true,
+      "sha256": "223baeb89069f31d71d40494f684822f7a2f965eff715fb1709a76fa0b2cf4b8"
+    },
+    {
+      "original_source": "employee_self_service/doctype/visit/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_visit/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/visit/test_visit.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_visit/test_rivora_visit.py",
+      "present": true,
+      "sha256": "ec796dfd6577a790618b9f5c5bec8fcfce7aec3399725927cb5713c024a6947e"
+    },
+    {
+      "original_source": "employee_self_service/doctype/visit/visit.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_visit/rivora_visit.js",
+      "present": true,
+      "sha256": "37ed76f7156d88abcae076423105acb402ce30c985142d27bf118a7e467e1f92"
+    },
+    {
+      "original_source": "employee_self_service/doctype/visit/visit.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_visit/rivora_visit.json",
+      "present": true,
+      "sha256": "00bd4a7145946ca3e2fe889615e19b0be6acf83e50542813c915733e59fa2826"
+    },
+    {
+      "original_source": "employee_self_service/doctype/visit/visit.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_visit/rivora_visit.py",
+      "present": true,
+      "sha256": "780f19ba756cce15224cbec973ce32747aa05f1ee00bcb3fb4683625b3c9c91a"
+    },
+    {
+      "original_source": "employee_self_service/doctype/visit_type/__init__.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_visit_type/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/doctype/visit_type/test_visit_type.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_visit_type/test_rivora_visit_type.py",
+      "present": true,
+      "sha256": "c61223b72b5370872aef09c417ddca3c9bccec555add39f394b7a43fcf9b6fb4"
+    },
+    {
+      "original_source": "employee_self_service/doctype/visit_type/visit_type.js",
+      "rivora_path": "rivora/rivora/doctype/rivora_visit_type/rivora_visit_type.js",
+      "present": true,
+      "sha256": "e94e9b27d4f826ec70e6c63a929d92856ae2cd42a88d73891e6a37e3a1425f10"
+    },
+    {
+      "original_source": "employee_self_service/doctype/visit_type/visit_type.json",
+      "rivora_path": "rivora/rivora/doctype/rivora_visit_type/rivora_visit_type.json",
+      "present": true,
+      "sha256": "1b76a3bd1a53cbc1a4f4a60a8b482d7e666b4e4a13054db54616cdf83c5550cb"
+    },
+    {
+      "original_source": "employee_self_service/doctype/visit_type/visit_type.py",
+      "rivora_path": "rivora/rivora/doctype/rivora_visit_type/rivora_visit_type.py",
+      "present": true,
+      "sha256": "8c021c7d8979dedf9007d6cdacf9550a2e30ca81a2dae27d4573dbcbbbf53c6a"
+    },
+    {
+      "original_source": "employee_self_service/employee_self_service_dashboard/test_vue/test_vue.json",
+      "rivora_path": "rivora/rivora/employee_self_service_dashboard/test_vue/test_vue.json",
+      "present": true,
+      "sha256": "3e9428ebea24ddeac0288289ff6b178e5ac59cc4f7e93215533f21cd7c830ac3"
+    },
+    {
+      "original_source": "employee_self_service/page/__init__.py",
+      "rivora_path": "rivora/rivora/page/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/page/employee_location_tracker/__init__.py",
+      "rivora_path": "rivora/rivora/page/employee_location_tracker/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "employee_self_service/page/employee_location_tracker/employee_location_tracker.js",
+      "rivora_path": "rivora/rivora/page/employee_location_tracker/employee_location_tracker.js",
+      "present": true,
+      "sha256": "5579df7a67025bc715dda78c2db065ade4cfb13a28c37ca6c5d9c84e59ebc4ed"
+    },
+    {
+      "original_source": "employee_self_service/page/employee_location_tracker/employee_location_tracker.json",
+      "rivora_path": "rivora/rivora/page/employee_location_tracker/employee_location_tracker.json",
+      "present": true,
+      "sha256": "c1a54df322f43f0ec5153d58453b37fd5055afd32f04fd9f1f9e2750939a9c42"
+    },
+    {
+      "original_source": "employee_self_service/page/employee_location_tracker/employee_location_tracker.py",
+      "rivora_path": "rivora/rivora/page/employee_location_tracker/employee_location_tracker.py",
+      "present": true,
+      "sha256": "da69fba5a877e724f19d4ac131f4f9310a9a2830fc98ef724894bcd044689e14"
+    },
+    {
+      "original_source": "employee_self_service/page/target_allocation_tool/__init__.py",
+      "rivora_path": "rivora/rivora/page/target_allocation_tool/__init__.py",
+      "present": true,
+      "sha256": "0ca4f3cba6d473fe71a139020fe3c225dae2a5b24caad8a1dbf9838e8a80cfe9"
+    },
+    {
+      "original_source": "employee_self_service/page/target_allocation_tool/target_allocation_tool.js",
+      "rivora_path": "rivora/rivora/page/target_allocation_tool/target_allocation_tool.js",
+      "present": true,
+      "sha256": "ec26847f87bb2e82e6ffb045265c27dd0576be78816b1e9036252998de20bdc8"
+    },
+    {
+      "original_source": "employee_self_service/page/target_allocation_tool/target_allocation_tool.json",
+      "rivora_path": "rivora/rivora/page/target_allocation_tool/target_allocation_tool.json",
+      "present": true,
+      "sha256": "882fc48713c58c12c05d48ec0d8a8be377d6579ff9789b950ccc9a13c42ee79f"
+    },
+    {
+      "original_source": "employee_self_service/page/target_allocation_tool/target_allocation_tool.py",
+      "rivora_path": "rivora/rivora/page/target_allocation_tool/target_allocation_tool.py",
+      "present": true,
+      "sha256": "0e1be16f1abe832e1da2bee1c60e17d09c471bdba5d2be9071be5754fdcdcfe9"
+    },
+    {
+      "original_source": "employee_self_service/workspace/ess_mobile/ess_mobile.json",
+      "rivora_path": "rivora/rivora/workspace/employee_mobile/employee_mobile.json",
+      "present": true,
+      "sha256": "7a8946ebe85417bdd01bb5bf0e87b106a95a5ef49743521fa4ade3e1972baea4"
+    },
+    {
+      "original_source": "events/__init__.py",
+      "rivora_path": "rivora/events/__init__.py",
+      "present": true,
+      "sha256": "f10b7afa54f94df83260aa3dd3fbbf74e29a3861706d4108150bb98586056b12"
+    },
+    {
+      "original_source": "events/employee_target/__init__.py",
+      "rivora_path": "rivora/events/employee_target/__init__.py",
+      "present": true,
+      "sha256": "996835d22bbb52ca496813f75f01ccee0a28e9cc355e668b5508795f75a6cbb6"
+    },
+    {
+      "original_source": "events/employee_target/utils.py",
+      "rivora_path": "rivora/events/employee_target/utils.py",
+      "present": true,
+      "sha256": "d1fcaf5e4e7e878b46e5b5577fce4f8a7697d15306cecb2b75749846a96f50b7"
+    },
+    {
+      "original_source": "fixtures/custom_docperm.json",
+      "rivora_path": "rivora/fixtures/custom_docperm.json",
+      "present": true,
+      "sha256": "b9c696b0fce2c72562a818efa9820eee1cc30ddf6fd98492bacfd6ee7900a44b"
+    },
+    {
+      "original_source": "fixtures/ess_notification.json",
+      "rivora_path": "rivora/fixtures/rivora_notification.json",
+      "present": true,
+      "sha256": "2c0c44fc154f5f42819df0eb29428fe7e698bd955683b9f09d74800d2a883aee"
+    },
+    {
+      "original_source": "fixtures/ess_notification_template.json",
+      "rivora_path": "rivora/fixtures/rivora_notification_template.json",
+      "present": true,
+      "sha256": "44818be9767bd016d86e5f521e6a9e37d5376de59ede5e2afb34b1017a93f09b"
+    },
+    {
+      "original_source": "fixtures/ess_translation.json",
+      "rivora_path": "rivora/fixtures/rivora_employee_translation.json",
+      "present": true,
+      "sha256": "dc7198a64bccb266cb78345ec21e54039853511ece2ecadde437587598e39aa4"
+    },
+    {
+      "original_source": "fixtures/notice_board_template.json",
+      "rivora_path": "rivora/fixtures/rivora_notice_board_template.json",
+      "present": true,
+      "sha256": "84f0ebeca659427b2f37f013cb5606a92a26c899cb2958ce2ae5ff6b6d2a02aa"
+    },
+    {
+      "original_source": "fixtures/notice_board_template_type.json",
+      "rivora_path": "rivora/fixtures/rivora_notice_board_template_type.json",
+      "present": true,
+      "sha256": "f6f7a0d5772c46be76977d16548b2d0529eae5e495aea0888b6eb5f872dcb243"
+    },
+    {
+      "original_source": "mobile/__init__.py",
+      "rivora_path": "rivora/mobile/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "mobile/api_utils.py",
+      "rivora_path": "rivora/mobile/api_utils.py",
+      "present": true,
+      "sha256": "ec07d2ef0fa36318e0da5bd25a6326d329f15560787d7d8291a5121eddd4ab38"
+    },
+    {
+      "original_source": "mobile/ess.py",
+      "rivora_path": "rivora/mobile/employee.py",
+      "present": true,
+      "sha256": "42026fa2ec6645acabb587130e416249012a9cb0d5a9696b3f27bd6714a2bece"
+    },
+    {
+      "original_source": "mobile/location.py",
+      "rivora_path": "rivora/mobile/location.py",
+      "present": true,
+      "sha256": "df733f2509996ebf3a7356817bf4ca2d108322a91294b2af34af6ca513e17bd1"
+    },
+    {
+      "original_source": "mobile/order.py",
+      "rivora_path": "rivora/mobile/order.py",
+      "present": true,
+      "sha256": "2651e220f86b947968a9700b020ff3e2432c5d2aea9cb6dbc5fca1f71d898147"
+    },
+    {
+      "original_source": "mobile/translation.py",
+      "rivora_path": "rivora/mobile/translation.py",
+      "present": true,
+      "sha256": "6219c71666d623bc8617510a577833c4376b904b3e19629a9a32fb04c787f9a8"
+    },
+    {
+      "original_source": "mobile/v1/__init__.py",
+      "rivora_path": "rivora/mobile/v1/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "mobile/v1/accounting.py",
+      "rivora_path": "rivora/mobile/v1/accounting.py",
+      "present": true,
+      "sha256": "87864d26ec51b15e325d7909354aec774f653e8e5f3b00c4828c36da7a7f8481"
+    },
+    {
+      "original_source": "mobile/v1/api_utils.py",
+      "rivora_path": "rivora/mobile/v1/api_utils.py",
+      "present": true,
+      "sha256": "b798e76627471b695712cd2c71e69c8c60e5d49bd2d0a0f0b17110814b75e33c"
+    },
+    {
+      "original_source": "mobile/v1/approval/__init__.py",
+      "rivora_path": "rivora/mobile/v1/approval/__init__.py",
+      "present": true,
+      "sha256": "2ef16bea10797d625bc6ad28df61c807809ec1c842f3c7a72fc404a267d16154"
+    },
+    {
+      "original_source": "mobile/v1/approval/workflow.py",
+      "rivora_path": "rivora/mobile/v1/approval/workflow.py",
+      "present": true,
+      "sha256": "d353787a6bfc4d2ce50fb49af4f597b29f682f18c9823c54319a16e26c5cfaa2"
+    },
+    {
+      "original_source": "mobile/v1/attendance/__init__.py",
+      "rivora_path": "rivora/mobile/v1/attendance/__init__.py",
+      "present": true,
+      "sha256": "181739c27749ddceb58241c244770772ee46e6c9a64ef17482dd44bae85cf382"
+    },
+    {
+      "original_source": "mobile/v1/attendance_request.py",
+      "rivora_path": "rivora/mobile/v1/attendance_request.py",
+      "present": true,
+      "sha256": "80d73e466d4f35e13498bede4a6dd0e3ca09adf36d683cf557479852fef18f2a"
+    },
+    {
+      "original_source": "mobile/v1/constants/__init__.py",
+      "rivora_path": "rivora/mobile/v1/constants/__init__.py",
+      "present": true,
+      "sha256": "028eedf98b747542d566af1b8a5714458bf7e9a90efe6c912167435dec4916f1"
+    },
+    {
+      "original_source": "mobile/v1/custom/__init__.py",
+      "rivora_path": "rivora/mobile/v1/custom/__init__.py",
+      "present": true,
+      "sha256": "ea82099ad12abdbe0f4344d24b17818a0454490418ba9f21823719dc76afa83a"
+    },
+    {
+      "original_source": "mobile/v1/custom/common.py",
+      "rivora_path": "rivora/mobile/v1/custom/common.py",
+      "present": true,
+      "sha256": "fdf31bb711dddb019aaeda431f4344f04909decd2b665dc61f08f4e729f537dc"
+    },
+    {
+      "original_source": "mobile/v1/directory/__init__.py",
+      "rivora_path": "rivora/mobile/v1/directory/__init__.py",
+      "present": true,
+      "sha256": "d347fefc03dcd26a27f79ebdfaa1cc30fa49535c37c6a64de54047bfac493628"
+    },
+    {
+      "original_source": "mobile/v1/directory/employee.py",
+      "rivora_path": "rivora/mobile/v1/directory/employee.py",
+      "present": true,
+      "sha256": "ae209d55e50bffba5c05f498d0e32a7f476d7e30e49a321661b3af3791b720cb"
+    },
+    {
+      "original_source": "mobile/v1/document_actions.py",
+      "rivora_path": "rivora/mobile/v1/document_actions.py",
+      "present": true,
+      "sha256": "5bcb09429e5301863fd2e67ea718aac6d4603e702b7900961cdad0ec95d465b3"
+    },
+    {
+      "original_source": "mobile/v1/employee_target/__init__.py",
+      "rivora_path": "rivora/mobile/v1/employee_target/__init__.py",
+      "present": true,
+      "sha256": "36a782052461116092643d8a2f1cf177258eb65c77fa8d48a461d20b349bc0bc"
+    },
+    {
+      "original_source": "mobile/v1/ess.py",
+      "rivora_path": "rivora/mobile/v1/employee.py",
+      "present": true,
+      "sha256": "77bea4d15d87a4fe5ad51ed57ec9754469af80d04473ff34b6adfd154e0abd4f"
+    },
+    {
+      "original_source": "mobile/v1/ess_location/__init__.py",
+      "rivora_path": "rivora/mobile/v1/rivora_location/__init__.py",
+      "present": true,
+      "sha256": "ef1df99b3f24d870066ba139cd0eef4ff09292ccb916eb8f74e81168a1cafe2e"
+    },
+    {
+      "original_source": "mobile/v1/expense.py",
+      "rivora_path": "rivora/mobile/v1/expense.py",
+      "present": true,
+      "sha256": "20b894003cfbcb656041bb67c90512d646050306d1aa654a618b65a7ee7989a4"
+    },
+    {
+      "original_source": "mobile/v1/feed.py",
+      "rivora_path": "rivora/mobile/v1/feed.py",
+      "present": true,
+      "sha256": "00903bf94b5b4ecb173c2f01cf229be53571da44fd72ecf87fcf366dc987ed64"
+    },
+    {
+      "original_source": "mobile/v1/file.py",
+      "rivora_path": "rivora/mobile/v1/file.py",
+      "present": true,
+      "sha256": "b4650f74fc1edbc53960dd831aa1e2fa5b3896b4af59480bb39b1573534f9269"
+    },
+    {
+      "original_source": "mobile/v1/hr_approval/__init__.py",
+      "rivora_path": "rivora/mobile/v1/hr_approval/__init__.py",
+      "present": true,
+      "sha256": "78abeb3ca2ede1d1d8f6e0b59efdc4a88b2cb9617048b3f0f5debe3adefebff5"
+    },
+    {
+      "original_source": "mobile/v1/issue/__init__.py",
+      "rivora_path": "rivora/mobile/v1/issue/__init__.py",
+      "present": true,
+      "sha256": "52fe7b707a02d84e709de77db45162fd7c482c8f8c142c9ab090b1462686818d"
+    },
+    {
+      "original_source": "mobile/v1/issue/issue.py",
+      "rivora_path": "rivora/mobile/v1/issue/issue.py",
+      "present": true,
+      "sha256": "f8bee4ba47a17aedcf6a899f2d636c7949a13f6d5ba1b2040c822a89f2a7c893"
+    },
+    {
+      "original_source": "mobile/v1/lead.py",
+      "rivora_path": "rivora/mobile/v1/lead.py",
+      "present": true,
+      "sha256": "31776b9cb36b24846bb45d084bac3227ed43b691d7f0dedea0f903e008237382"
+    },
+    {
+      "original_source": "mobile/v1/location.py",
+      "rivora_path": "rivora/mobile/v1/location.py",
+      "present": true,
+      "sha256": "97131e3a4a66247cfdc9f494e935f33d8dedb7ff046f61563de90b2768e2201f"
+    },
+    {
+      "original_source": "mobile/v1/manager/__init__.py",
+      "rivora_path": "rivora/mobile/v1/manager/__init__.py",
+      "present": true,
+      "sha256": "240a3f665759aa214887870eca723cc34723606bfaeadc41211a110d4734133f"
+    },
+    {
+      "original_source": "mobile/v1/manager/dashboard.py",
+      "rivora_path": "rivora/mobile/v1/manager/dashboard.py",
+      "present": true,
+      "sha256": "f43d01552aaaac6842d3d66b3ab96d542be6513a186f8545e1f2e295ff859f0f"
+    },
+    {
+      "original_source": "mobile/v1/manager/expense_claim.py",
+      "rivora_path": "rivora/mobile/v1/manager/expense_claim.py",
+      "present": true,
+      "sha256": "65a243d9f11852f70350428e5ca4451f5f785ff12576fd053c092bb47c5f836f"
+    },
+    {
+      "original_source": "mobile/v1/manager/leave_application.py",
+      "rivora_path": "rivora/mobile/v1/manager/leave_application.py",
+      "present": true,
+      "sha256": "c65c0f486f7d03a6b820c1aa974749bba270c4d6197f3ee738251f497f17b004"
+    },
+    {
+      "original_source": "mobile/v1/manager/manager_utils.py",
+      "rivora_path": "rivora/mobile/v1/manager/manager_utils.py",
+      "present": true,
+      "sha256": "2fb961498fd3a717dea5ccdd0d7a0da1c5369c60e1a505b2fa585f37f9a83803"
+    },
+    {
+      "original_source": "mobile/v1/order.py",
+      "rivora_path": "rivora/mobile/v1/order.py",
+      "present": true,
+      "sha256": "5eb71014d37033211c7c6d93b8851cf8a659b6304ddc55b2e519e45ea820b2b5"
+    },
+    {
+      "original_source": "mobile/v1/payment.py",
+      "rivora_path": "rivora/mobile/v1/payment.py",
+      "present": true,
+      "sha256": "39d925dab2dad8378279624d807708f0ad30dc5079545ae5ceea35ba7fe23043"
+    },
+    {
+      "original_source": "mobile/v1/permission/__init__.py",
+      "rivora_path": "rivora/mobile/v1/permission/__init__.py",
+      "present": true,
+      "sha256": "555cef1a0b8e6ba2484773c0b7b14557d3c7671323c049df9ff1dbf49ae901ae"
+    },
+    {
+      "original_source": "mobile/v1/quotation.py",
+      "rivora_path": "rivora/mobile/v1/quotation.py",
+      "present": true,
+      "sha256": "c47ad93b0cd3e03028bb93e0a9aef203f020c61fd948bf5546f3b5d9f2ad09c6"
+    },
+    {
+      "original_source": "mobile/v1/settings/__init__.py",
+      "rivora_path": "rivora/mobile/v1/settings/__init__.py",
+      "present": true,
+      "sha256": "7a33300e2d1f80e4647a82aec6584e80e22890c775892eab3be7997439557932"
+    },
+    {
+      "original_source": "mobile/v1/shift_request/__init__.py",
+      "rivora_path": "rivora/mobile/v1/shift_request/__init__.py",
+      "present": true,
+      "sha256": "9ba50132b4482e8bfb9b089dae23e4c7d701ac2d6f6da574e117cbc905f6bebe"
+    },
+    {
+      "original_source": "mobile/v1/shift_request/shift_request.py",
+      "rivora_path": "rivora/mobile/v1/shift_request/shift_request.py",
+      "present": true,
+      "sha256": "7b68e1bfa92a16659b771d7f1b7761b3e51218e0e520ebdbfa9931424a034623"
+    },
+    {
+      "original_source": "mobile/v1/task.py",
+      "rivora_path": "rivora/mobile/v1/task.py",
+      "present": true,
+      "sha256": "9e9492537f8971563b031b84110410c46e032b62d49f9b279e5dc7e972da1cf1"
+    },
+    {
+      "original_source": "mobile/v1/timesheet/__init__.py",
+      "rivora_path": "rivora/mobile/v1/timesheet/__init__.py",
+      "present": true,
+      "sha256": "1dfecc8203e93f69a63848ece33f04191518d4efea455a5f4f403b97c748b55c"
+    },
+    {
+      "original_source": "mobile/v1/timesheet/timesheet.py",
+      "rivora_path": "rivora/mobile/v1/timesheet/timesheet.py",
+      "present": true,
+      "sha256": "bd1a7edd564de8866ee219ee8507a21b1f45919a6380084d63ec5a093dc12c1e"
+    },
+    {
+      "original_source": "mobile/v1/todo/__init__.py",
+      "rivora_path": "rivora/mobile/v1/todo/__init__.py",
+      "present": true,
+      "sha256": "607b049c2d0aba9ea9fb9e37d24103d9edb0cae6171109e0bc862ddbdd80b31a"
+    },
+    {
+      "original_source": "mobile/v1/transactions/__init__.py",
+      "rivora_path": "rivora/mobile/v1/transactions/__init__.py",
+      "present": true,
+      "sha256": "1eba1defff35f72c6def96aa3c1fd58e9b926a5f9ec6566f01ac477d05cfa907"
+    },
+    {
+      "original_source": "mobile/v1/translation.py",
+      "rivora_path": "rivora/mobile/v1/translation.py",
+      "present": true,
+      "sha256": "eab777e82e9f0d2cd8d9dc8a73cd8513dedab2a0b099c16757591404b468dcd2"
+    },
+    {
+      "original_source": "mobile/v1/visit.py",
+      "rivora_path": "rivora/mobile/v1/rivora_visit.py",
+      "present": true,
+      "sha256": "9c51900e587f0fbfb11c0a4b8788fdcd4e0c16f26e10c4b94da995fbb6e25aa5"
+    },
+    {
+      "original_source": "mobile/v2/common/__init__.py",
+      "rivora_path": "rivora/mobile/v2/common/__init__.py",
+      "present": true,
+      "sha256": "118ae7e87bcc759e3c9d76c662dcdb22dc718048f33fbb25c55557564e614039"
+    },
+    {
+      "original_source": "mobile/v2/common/utils.py",
+      "rivora_path": "rivora/mobile/v2/common/utils.py",
+      "present": true,
+      "sha256": "95f8fb7830c25932763d675d1b66e8033f9fc4e29367f5d4f3d955e2043b48ed"
+    },
+    {
+      "original_source": "mobile/v2/utils/__init__.py",
+      "rivora_path": "rivora/mobile/v2/utils/__init__.py",
+      "present": true,
+      "sha256": "035b21ef18c5316892204e8feb8ef32a29903d100f06d084978028205d46bd25"
+    },
+    {
+      "original_source": "mobile/v2/workflow/__init__.py",
+      "rivora_path": "rivora/mobile/v2/workflow/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "mobile/v2/workflow/workflow.py",
+      "rivora_path": "rivora/mobile/v2/workflow/workflow.py",
+      "present": true,
+      "sha256": "1fc12c69d817189b198d679e07180113b11664dbfcbbd9bfa86b2e2d66e68035"
+    },
+    {
+      "original_source": "mobile/visit.py",
+      "rivora_path": "rivora/mobile/rivora_visit.py",
+      "present": true,
+      "sha256": "7b8611f954b6afce1f4258f966f3ea983258efb9bf547eb56711b6e1dedb7b20"
+    },
+    {
+      "original_source": "order.py",
+      "rivora_path": "rivora/order.py",
+      "present": true,
+      "sha256": "f63662e0ed4c1feb442c4e900a73e3dff72d8d11fc7b5870baf91381ccae620c"
+    },
+    {
+      "original_source": "public/.gitkeep",
+      "rivora_path": "rivora/public/.gitkeep",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "public/js/employee.js",
+      "rivora_path": "rivora/public/js/employee.js",
+      "present": true,
+      "sha256": "bb0119cca3236250763854363514821d1fc065b51241555c0c2a26a9c80d64d6"
+    },
+    {
+      "original_source": "public/js/employee_checkin.js",
+      "rivora_path": "rivora/public/js/employee_checkin.js",
+      "present": true,
+      "sha256": "55c33db83aae169eefb2c69606a8da96152f28515826d9e1c6ecbc75d336f8d4"
+    },
+    {
+      "original_source": "public/scss/print.bundle.scss",
+      "rivora_path": "rivora/public/scss/print.bundle.scss",
+      "present": true,
+      "sha256": "38255797cbe49d194901d324ac43eff8162dac39448752abc26a9c29815091a7"
+    },
+    {
+      "original_source": "send_notification.py",
+      "rivora_path": "rivora/send_notification.py",
+      "present": true,
+      "sha256": "22bd730236a951dde7609a71114a01bdcec914255615d1d415d05c1e748cfc04"
+    },
+    {
+      "original_source": "setup/__init__.py",
+      "rivora_path": "rivora/setup/__init__.py",
+      "present": true,
+      "sha256": "69199e910da51132e93179f5afbd939eccbdaebabd2e6a940bc5ce10a94b87b8"
+    },
+    {
+      "original_source": "templates/__init__.py",
+      "rivora_path": "rivora/templates/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "templates/employee_statement.html",
+      "rivora_path": "rivora/templates/employee_statement.html",
+      "present": true,
+      "sha256": "a0592bda19cb9691668dc49c8f8e4498d045715650d145c77d74aec9331878b8"
+    },
+    {
+      "original_source": "templates/pages/__init__.py",
+      "rivora_path": "rivora/templates/pages/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "tests/__init__.py",
+      "rivora_path": "rivora/tests/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "tests/test_utils.py",
+      "rivora_path": "rivora/tests/test_utils.py",
+      "present": true,
+      "sha256": "cd295a30fcb2da8d249e924ba1b13afa558b0767e86c7681494aa6037a280b3d"
+    },
+    {
+      "original_source": "utils/__init__.py",
+      "rivora_path": "rivora/utils/__init__.py",
+      "present": true,
+      "sha256": "e68622fba6b1db5d7a4cf9dcc9b1f9ed3409497393b21ccd312f94e4a6c2d4a0"
+    },
+    {
+      "original_source": "www/__init__.py",
+      "rivora_path": "rivora/www/__init__.py",
+      "present": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_source": "hooks.py",
+      "rivora_path": "rivora/_employee_hooks.py",
+      "present": true,
+      "sha256": "968a01e355b0f9f8f19123f044c3321a098f80235135d5943821b22fc2fa9684"
+    }
+  ]
+}

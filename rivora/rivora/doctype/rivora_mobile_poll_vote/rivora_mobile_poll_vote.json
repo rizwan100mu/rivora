@@ -1,0 +1,28 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Poll Vote",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "field_order": [
+    "user",
+    "answer"
+  ],
+  "fields": [
+    {
+      "fieldname": "user",
+      "fieldtype": "Link",
+      "label": "User",
+      "options": "User",
+      "reqd": 1
+    },
+    {
+      "fieldname": "answer",
+      "fieldtype": "Data",
+      "label": "Answer",
+      "reqd": 1
+    }
+  ],
+  "permissions": [],
+  "autoname": "hash",
+  "istable": 1
+}

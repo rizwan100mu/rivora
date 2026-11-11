@@ -1,0 +1,50 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Location",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "field_order": [
+    "location_name",
+    "latitude",
+    "longitude",
+    "radius"
+  ],
+  "fields": [
+    {
+      "fieldname": "location_name",
+      "fieldtype": "Data",
+      "label": "Location Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "latitude",
+      "fieldtype": "Float",
+      "label": "Latitude",
+      "reqd": 1
+    },
+    {
+      "fieldname": "longitude",
+      "fieldtype": "Float",
+      "label": "Longitude",
+      "reqd": 1
+    },
+    {
+      "fieldname": "radius",
+      "fieldtype": "Float",
+      "label": "Radius in metres",
+      "reqd": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "report": 1,
+      "export": 1
+    }
+  ],
+  "autoname": "hash"
+}

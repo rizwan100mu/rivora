@@ -1,0 +1,6 @@
+This consolidated package retains third-party source and notices.
+
+See LICENSES/upstream-ess-license.txt, LICENSES/legacy-extras-license.txt and
+THIRD_PARTY_NOTICES.md. The inherited declarations conflict; this status file
+does not supersede their rights or grant a new license. Public redistribution
+requires a definitive determination of the applicable inherited terms.

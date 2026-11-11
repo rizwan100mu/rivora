@@ -1,0 +1,53 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Client Device",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "autoname": "field:device_key",
+  "field_order": [
+    "device_key",
+    "user",
+    "device_id",
+    "platform",
+    "app_version"
+  ],
+  "fields": [
+    {
+      "fieldname": "device_key",
+      "fieldtype": "Data",
+      "label": "Device Key",
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "user",
+      "fieldtype": "Link",
+      "label": "User",
+      "options": "User",
+      "reqd": 1
+    },
+    {
+      "fieldname": "device_id",
+      "fieldtype": "Data",
+      "label": "Device ID",
+      "reqd": 1
+    },
+    {
+      "fieldname": "platform",
+      "fieldtype": "Data",
+      "label": "Platform"
+    },
+    {
+      "fieldname": "app_version",
+      "fieldtype": "Data",
+      "label": "App Version"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "report": 1
+    }
+  ]
+}

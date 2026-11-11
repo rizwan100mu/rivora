@@ -1,0 +1,88 @@
+{
+  "doctype": "DocType",
+  "name": "Rivora Mobile Location Point",
+  "module": "Rivora",
+  "engine": "InnoDB",
+  "autoname": "field:event_key",
+  "field_order": [
+    "event_key",
+    "tracking_session",
+    "employee",
+    "company",
+    "captured_at",
+    "received_at",
+    "latitude",
+    "longitude",
+    "accuracy"
+  ],
+  "fields": [
+    {
+      "fieldname": "event_key",
+      "fieldtype": "Data",
+      "label": "Event Key",
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "tracking_session",
+      "fieldtype": "Link",
+      "label": "Tracking Session",
+      "options": "Rivora Mobile Tracking Session",
+      "reqd": 1
+    },
+    {
+      "fieldname": "employee",
+      "fieldtype": "Link",
+      "label": "Employee",
+      "options": "Employee",
+      "reqd": 1,
+      "search_index": 1
+    },
+    {
+      "fieldname": "company",
+      "fieldtype": "Link",
+      "label": "Company",
+      "options": "Company",
+      "reqd": 1
+    },
+    {
+      "fieldname": "captured_at",
+      "fieldtype": "Datetime",
+      "label": "Captured At (UTC)",
+      "reqd": 1,
+      "search_index": 1
+    },
+    {
+      "fieldname": "received_at",
+      "fieldtype": "Datetime",
+      "label": "Received At (UTC)",
+      "reqd": 1
+    },
+    {
+      "fieldname": "latitude",
+      "fieldtype": "Float",
+      "label": "Latitude",
+      "precision": "8"
+    },
+    {
+      "fieldname": "longitude",
+      "fieldtype": "Float",
+      "label": "Longitude",
+      "precision": "8"
+    },
+    {
+      "fieldname": "accuracy",
+      "fieldtype": "Float",
+      "label": "Accuracy (metres)"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "delete": 1
+    }
+  ],
+  "sort_field": "creation",
+  "sort_order": "DESC"
+}
