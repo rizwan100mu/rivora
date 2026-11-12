@@ -175,7 +175,9 @@
       "default": "0",
       "fieldname": "enable_rivora_notification",
       "fieldtype": "Check",
-      "label": "Enable Rivora Notification"
+      "label": "Enable Rivora Notification",
+      "hidden": 1,
+      "reqd": 0
     },
     {
       "default": "0",

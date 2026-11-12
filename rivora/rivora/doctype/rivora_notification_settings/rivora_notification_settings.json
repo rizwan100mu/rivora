@@ -21,7 +21,9 @@
       "default": "1",
       "fieldname": "enable_like_and_comment_notification",
       "fieldtype": "Check",
-      "label": "Enable Like And Comment Notification"
+      "label": "Enable Like And Comment Notification",
+      "hidden": 1,
+      "reqd": 0
     },
     {
       "default": "1",

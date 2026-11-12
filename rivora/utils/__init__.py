@@ -114,19 +114,22 @@ def notification_log(
     reference_name=None,
     other_info=None,
 ):
-    if frappe.session.user == recipient:
+    """Compatibility adapter for employee events into the ERPNext Desk inbox."""
+    from frappe.desk.doctype.notification_settings.notification_settings import is_notifications_enabled
+    if not recipient or recipient == "Guest" or frappe.session.user == recipient:
         return
-    notification_log = frappe.new_doc("Rivora Notification Log")
-    notification_log.notification_name = notification_name
-    notification_log.document_type = doctype
-    notification_log.subject = subject
-    notification_log.message = message
-    notification_log.recipient = recipient
-    notification_log.token = token
-    notification_log.reference_document = reference_doctype
-    notification_log.reference_name = reference_name
-    notification_log.other_info = other_info
-    notification_log.insert(ignore_permissions=True)
+    if not frappe.db.get_value("User", recipient, "enabled") or not is_notifications_enabled(recipient):
+        return
+    if reference_doctype and reference_name:
+        doc = frappe.get_doc(reference_doctype, reference_name)
+        if not frappe.has_permission(reference_doctype, "read", doc=doc, user=recipient):
+            return
+    frappe.get_doc({
+        "doctype": "Notification Log", "type": "Alert", "for_user": recipient,
+        "from_user": frappe.session.user, "subject": subject,
+        "email_content": message, "document_type": reference_doctype,
+        "document_name": reference_name,
+    }).insert(ignore_permissions=True)
 
 
 def strip_and_clean_html(html_content):

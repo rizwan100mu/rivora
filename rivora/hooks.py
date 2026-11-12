@@ -9,12 +9,19 @@ app_email = ""
 app_license = "See LICENSES and THIRD_PARTY_NOTICES.md"
 required_apps = ["erpnext", "hrms"]
 doc_events = deepcopy(employee.doc_events)
+# ERPNext owns notification rules, recipients and assignment events.
+for events in doc_events.values():
+    for event, handlers in list(events.items()):
+        handlers = [handlers] if isinstance(handlers, str) else handlers
+        handlers = [handler for handler in handlers if handler not in {
+            "rivora.send_notification.notification", "rivora.events.after_insert_comment"}]
+        if handlers:
+            events[event] = handlers
+        else:
+            del events[event]
 for doctype, event, handler in [
     ("*", "before_validate", "rivora.transaction_validation.before_validate"),
-    ("*", "after_insert", "rivora.entry_notifications.queue_entry_alert"),
     ("Notification Log", "after_insert", "rivora.api.push_update"),
-    ("ToDo", "after_insert", "rivora.todo_notifications.queue_assignment"),
-    ("ToDo", "on_update", "rivora.todo_notifications.queue_assignment"),
 ]:
     events = doc_events.setdefault(doctype, {})
     existing = events.get(event, [])
@@ -24,7 +31,8 @@ scheduler_events = deepcopy(employee.scheduler_events)
 scheduler_events.setdefault("daily", []).extend(["rivora.api.clean_devices", "rivora.live_location.cleanup"])
 doctype_js = deepcopy(employee.doctype_js)
 jinja = deepcopy(employee.jinja)
-fixtures = deepcopy(employee.fixtures)
+fixtures = [fixture for fixture in deepcopy(employee.fixtures)
+    if fixture.get("dt") not in {"Rivora Notification", "Rivora Notification Template"}]
 before_tests = employee.before_tests
 before_install = "rivora.lifecycle.assert_installable"
 before_migrate = "rivora.lifecycle.assert_installable"

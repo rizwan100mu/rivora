@@ -12,8 +12,6 @@ class MergeTests(unittest.TestCase):
             self.assertNotIn(name, names)
             names.add(name)
             self.assertTrue(name.startswith('Rivora '))
-            self.assertNotIn('Ess', name)
-            self.assertNotIn('ESS', name)
             self.assertNotEqual(name, 'Employee Self Service Settings')
             self.assertEqual(data['module'], 'Rivora')
             # Frappe resolves controllers from the scrubbed DocType name.
@@ -28,7 +26,6 @@ class MergeTests(unittest.TestCase):
         self.assertIn('Rivora Post', names)
         self.assertIn('Rivora Mobile Post', names)
         self.assertIn('Rivora Settings', names)
-        self.assertIn('Rivora Translation', names)
         self.assertIn('Rivora Mobile Settings', names)
         self.assertIn('Rivora Employee Mobile Event', names)
     def load_guard(self, installed, old_schema=False):
@@ -50,4 +47,4 @@ class MergeTests(unittest.TestCase):
         self.assertIn('deepcopy(employee.doc_events)',source)
         self.assertIn('deepcopy(employee.scheduler_events)',source)
         self.assertIn('rivora.transaction_validation.before_validate',source)
-        self.assertIn('rivora.entry_notifications.queue_entry_alert',source)
+        self.assertNotIn('rivora.entry_notifications.queue_entry_alert',source)

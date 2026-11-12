@@ -25,19 +25,19 @@ class PushHookTests(unittest.TestCase):
         self.hook({"for_user":"me@example.com"})
         self.f.enqueue.assert_not_called()
 
-    def test_native_todo_assignment_is_suppressed_to_avoid_duplicates(self):
+    def test_native_todo_assignment_uses_desk_notification(self):
         self.hook({"name":"LOG-1","for_user":"me@example.com","type":"Assignment","document_type":"ToDo"})
-        self.f.enqueue.assert_not_called()
+        self.f.enqueue.assert_called()
         self.f.db.delete.assert_not_called()
 
-    def test_business_document_assignment_keeps_desk_log_without_duplicate_push(self):
+    def test_business_document_assignments_forward_the_desk_log(self):
         for doctype in ['Quotation', 'Task', 'Administrative Decision', 'Custom DocType']:
             self.hook({"name":"LOG-1","for_user":"creator@example.com","type":"Assignment","document_type":doctype})
-        self.f.enqueue.assert_not_called()
+        self.f.enqueue.assert_called()
         self.f.db.delete.assert_not_called()
 
-    def test_rivora_todo_assignment_log_is_also_suppressed(self):
+    def test_saved_assignment_names_are_forwarded(self):
         self.hook({"name":"rivora-todo-123","for_user":"me@example.com","type":"Assignment","document_type":"ToDo"})
-        self.f.enqueue.assert_not_called()
+        self.f.enqueue.assert_called_once()
 
 if __name__ == "__main__":unittest.main()

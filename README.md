@@ -1,3 +1,5 @@
+**Server 2.0.9:** Rivora now forwards ERPNext Desk notifications, including assignments. Configure business alerts using ERPNext Notification with channel System. Separate Rivora entry/ToDo notification engines are retired. [Upgrade notes](DESK_NOTIFICATIONS.md). Existing custom Rivora rules need conversion before upgrading.
+
 # Rivora
 
 Rivora 2.0.8 is one Frappe application containing employee self-service workflows and native mobile integration for ERPNext and HRMS. ESS controllers, APIs, hooks, scheduled jobs, settings, fixtures and schemas are bundled under the Rivora namespace. No separate ESS repository is required. The Android app is distributed separately.

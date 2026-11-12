@@ -67,14 +67,18 @@
     {
       "fieldname": "entry_notifications_section",
       "fieldtype": "Section Break",
-      "label": "New Entry Notifications"
+      "label": "New Entry Notifications",
+      "hidden": 1,
+      "reqd": 0
     },
     {
       "fieldname": "enable_entry_notifications",
       "fieldtype": "Check",
       "label": "Enable New Entry Notifications",
       "default": "0",
-      "description": "Notify the selected users when a new record is successfully committed in any selected DocType. Browser and mobile entries are included; edits, submits and cancels do not trigger a second new-entry alert."
+      "description": "Notify the selected users when a new record is successfully committed in any selected DocType. Browser and mobile entries are included; edits, submits and cancels do not trigger a second new-entry alert.",
+      "hidden": 1,
+      "reqd": 0
     },
     {
       "fieldname": "entry_notification_doctypes",
@@ -82,7 +86,8 @@
       "label": "DocTypes to Notify",
       "options": "Rivora Mobile Entry Alert DocType",
       "depends_on": "enable_entry_notifications",
-      "mandatory_depends_on": "enable_entry_notifications"
+      "hidden": 1,
+      "reqd": 0
     },
     {
       "fieldname": "entry_rivora_notification_users",
@@ -90,8 +95,9 @@
       "label": "Users to Notify",
       "options": "Rivora Mobile Entry Alert User",
       "depends_on": "enable_entry_notifications",
-      "mandatory_depends_on": "enable_entry_notifications",
-      "description": "Selected users receive alerts only for documents they own or are assigned, with read permission. Assigned ToDos notify their assignee. Phone push delivery is controlled separately in each user's mobile app Settings."
+      "description": "Selected users receive alerts only for documents they own or are assigned, with read permission. Assigned ToDos notify their assignee. Phone push delivery is controlled separately in each user's mobile app Settings.",
+      "hidden": 1,
+      "reqd": 0
     },
     {
       "fieldname": "live_location_section",
