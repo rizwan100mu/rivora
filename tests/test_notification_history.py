@@ -15,7 +15,7 @@ class HistoryTests(unittest.TestCase):
         f.AuthenticationError = PermissionError
         f.DoesNotExistError = KeyError
         f.has_permission = Mock(return_value=True)
-        f.get_doc = Mock(return_value={"owner":"me@example.com"})
+        f.get_doc = Mock(return_value={"owner":"creator@example.com", "allocated_to":"me@example.com"})
         f.throw = lambda text, kind=ValueError: (_ for _ in ()).throw(kind(text))
         f.session = types.SimpleNamespace(user="me@example.com")
         self.exists = {"Notification Log", "Rivora Notification Log"}
@@ -112,7 +112,7 @@ class HistoryTests(unittest.TestCase):
     def test_filtering_scans_past_unrelated_page(self):
         self.rows['Notification Log']=[dict(name=f'OTHER-{i}',creation=f'{1000-i:04}',document_type='ToDo',document_name=f'OTHER-{i}',for_user='me@example.com') for i in range(201)]
         self.rows['Notification Log'].append(dict(name='OWN',creation='0001',document_type='ToDo',document_name='OWN',for_user='me@example.com'))
-        self.f.get_doc.side_effect=lambda dt,name:{'owner':'me@example.com' if name=='OWN' else 'other'}
+        self.f.get_doc.side_effect=lambda dt,name:{'owner':'creator@example.com', 'allocated_to':'me@example.com' if name=='OWN' else 'other'}
         result=self.module.list_notifications(page_length=1)
         self.assertEqual([r['name'] for r in result],['OWN'])
         self.assertIn(200,[c.kwargs['start'] for c in self.f.get_all.call_args_list])

@@ -11,7 +11,7 @@ def personal_document(doctype, name, user):
     if not frappe.has_permission(doctype, 'read', doc=doc, user=user):
         return False
     # An allocated ToDo belongs to the assignee, even if a manager created it.
-    if doctype == 'ToDo' and doc.get('allocated_to'):
+    if doctype == 'ToDo':
         return doc.get('allocated_to') == user
     if doc.get('owner') == user:
         return True

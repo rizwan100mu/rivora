@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rivora"
-version = "2.0.7"
+version = "2.0.8"
 description = "Rivora server integration for ERPNext and HRMS"
 requires-python = ">=3.10"
 dependencies = ["firebase-admin>=6.5,<8", "wrapt", "pyfcm"]

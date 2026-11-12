@@ -1,6 +1,10 @@
 # Rivora
 
-Rivora 2.0.7 is one Frappe application containing employee self-service workflows and native mobile integration for ERPNext and HRMS. ESS controllers, APIs, hooks, scheduled jobs, settings, fixtures and schemas are bundled under the Rivora namespace. No separate ESS repository is required. The Android app is distributed separately.
+Rivora 2.0.8 is one Frappe application containing employee self-service workflows and native mobile integration for ERPNext and HRMS. ESS controllers, APIs, hooks, scheduled jobs, settings, fixtures and schemas are bundled under the Rivora namespace. No separate ESS repository is required. The Android app is distributed separately.
+
+## Notification correction in 2.0.8
+
+Assignment alerts from every DocType go only to the current ToDo Allocated To user. Control phone delivery with **Rivora mobile Settings > Phone push alerts**; no new server switch is required. ERPNext/Frappe core files are unchanged. 200 server tests and mobile push-toggle tests passed; live phone acceptance remains pending. See [Update and acceptance instructions](UPDATE_2.0.8.md). Keep mobile 3.0.10.
 
 ## Installation
 
@@ -39,7 +43,7 @@ The key is encrypted in the site database, never saved as a public attachment or
 
 ## ToDo notifications
 
-New and reassigned open ToDos notify their current assignee by default, without enabling ERPNext personal notifications or adding ToDo to a new-entry list. The app-only alert is stored in Rivora Mobile Notification and queued after commit to registered phones for the current `allocated_to` account. The phone popup shows the ToDo description and, when present, its linked DocType and document ID; it does not show the ToDo ID. It does not create an ERPNext Notification Log or depend on ERPNext notification preferences. The current mobile app stores phone tokens in **Rivora Mobile Device**; **Rivora Employee Device Info** is a legacy token store. Read permission, an enabled account, running background workers, a registered phone and valid Firebase authorization are required.
+New and reassigned open ToDos notify their current assignee by default, without enabling ERPNext personal notifications or adding ToDo to a new-entry list. The app-only alert is stored in Rivora Mobile Notification and queued after commit to registered phones for the current `allocated_to` account. The phone popup shows the ToDo description and, when present, its linked DocType and document ID; it does not show the ToDo ID. Rivora preserves standard ERPNext/Frappe Notification Logs and preferences. Assignment phone delivery uses its dedicated mobile alert, so standard assignment logs are not forwarded a second time. Unallocated ToDos never fall back to notifying their creator. The current mobile app stores phone tokens in **Rivora Mobile Device**; **Rivora Employee Device Info** is a legacy token store. Read permission, an enabled account, running background workers, a registered phone and valid Firebase authorization are required.
 
 Users can disable delivery to their phone through **Phone push alerts** in Rivora mobile Settings. Android notification permission is required. Mobile 3.0.9 requests notification permission when no preference has been saved; saved opt-outs remain off. Other document entry alerts use the selected DocTypes and recipients in Rivora Mobile Settings.
 

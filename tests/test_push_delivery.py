@@ -218,4 +218,16 @@ class PushDeliveryTests(unittest.TestCase):
         self.assertEqual(self.module.send_user_push('me@example.com',notification_name='LOG-1')['status'],'notification_unavailable')
         self.messaging.send.assert_not_called()
 
+    def test_mobile_assignment_rechecks_allocated_user_before_sending(self):
+        log={'recipient':'me@example.com','document_type':'ToDo','document_name':'TODO-1','subject':'Assignment'}
+        self.f.get_doc.side_effect=lambda dt,name:log if dt=='Rivora Mobile Notification' else {'owner':'me@example.com','allocated_to':'new-assignee'}
+        result=self.module.send_user_push('me@example.com',notification_name='MOBILE-1',notification_source='Rivora Mobile Notification')
+        self.assertEqual(result['status'],'notification_unavailable')
+        self.messaging.send.assert_not_called()
+
+    def test_unregistered_phone_has_no_push_delivery(self):
+        self.f.get_all.return_value=[]
+        self.assertEqual(self.module.send_user_push('me@example.com',is_test=True)['status'],'no_devices')
+        self.messaging.send.assert_not_called()
+
 if __name__ == "__main__":unittest.main()

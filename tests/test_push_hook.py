@@ -28,7 +28,13 @@ class PushHookTests(unittest.TestCase):
     def test_native_todo_assignment_is_suppressed_to_avoid_duplicates(self):
         self.hook({"name":"LOG-1","for_user":"me@example.com","type":"Assignment","document_type":"ToDo"})
         self.f.enqueue.assert_not_called()
-        self.f.db.delete.assert_called_once_with("Notification Log",{"name":"LOG-1"})
+        self.f.db.delete.assert_not_called()
+
+    def test_business_document_assignment_keeps_desk_log_without_duplicate_push(self):
+        for doctype in ['Quotation', 'Task', 'Administrative Decision', 'Custom DocType']:
+            self.hook({"name":"LOG-1","for_user":"creator@example.com","type":"Assignment","document_type":doctype})
+        self.f.enqueue.assert_not_called()
+        self.f.db.delete.assert_not_called()
 
     def test_rivora_todo_assignment_log_is_also_suppressed(self):
         self.hook({"name":"rivora-todo-123","for_user":"me@example.com","type":"Assignment","document_type":"ToDo"})

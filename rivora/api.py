@@ -504,11 +504,10 @@ def unregister_device(device_id):
 
 def push_update(doc, method=None):
     """Queue the saved alert reference so phone text matches the notification."""
-    if doc.get("type") == "Assignment" and doc.get("document_type") == "ToDo":
-        # ToDo assignments are delivered in Rivora Mobile only. Remove the
-        # framework-created Desk log instead of routing it to phone push.
-        if doc.get("name"):
-            frappe.db.delete("Notification Log", {"name": doc.get("name")})
+    if doc.get("type") == "Assignment":
+        # Frappe may reference either the ToDo or its business document here.
+        # Preserve its Desk log. The dedicated ToDo hook sends one mobile alert
+        # to allocated_to, avoiding a second phone alert through this hook.
         return
     user = doc.get("for_user")
     if not user or not doc.get("name"):

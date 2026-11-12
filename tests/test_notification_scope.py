@@ -23,9 +23,9 @@ class ScopeTests(unittest.TestCase):
     def test_assigned_todo_only_assignee_even_with_read_access(self):
         for user,allowed in [('worker',True),('creator',False),('manager',False),('other',False)]:
             self.assertEqual(self.module.personal_document('ToDo','TODO-1',user),allowed)
-    def test_unallocated_todo_owner_only(self):
+    def test_unallocated_todo_never_notifies_owner(self):
         self.doc['allocated_to']=None
-        self.assertTrue(self.module.personal_document('ToDo','TODO-1','creator'))
+        self.assertFalse(self.module.personal_document('ToDo','TODO-1','creator'))
         self.assertFalse(self.module.personal_document('ToDo','TODO-1','other'))
     def test_document_owner_or_open_assignee(self):
         self.doc={'owner':'creator'}

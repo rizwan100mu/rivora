@@ -53,6 +53,25 @@ class ToDoNotificationsTests(unittest.TestCase):
         self.module.queue_assignment(self.doc)
         self.f.enqueue.assert_called_once()
 
+    def test_any_linked_doctype_delivers_only_to_allocated_user(self):
+        for doctype in ['Quotation', 'Task', 'Administrative Decision', 'Custom DocType']:
+            with self.subTest(doctype=doctype):
+                self.logs.clear()
+                self.f.enqueue.reset_mock()
+                self.doc.reference_type = doctype
+                self.doc.reference_name = 'DOC-1'
+                self.deliver()
+                log = next(iter(self.logs.values()))
+                self.assertEqual(log['recipient'], self.doc.allocated_to)
+                self.assertEqual(log['reference_type'], doctype)
+                self.assertEqual(self.f.enqueue.call_args.kwargs['user'], self.doc.allocated_to)
+                self.assertNotEqual(log['recipient'], self.doc.owner)
+
+    def test_no_allocated_user_never_queues(self):
+        self.doc.allocated_to = None
+        self.module.queue_assignment(self.doc)
+        self.f.enqueue.assert_not_called()
+
     def test_default_notification_has_no_dependency_on_personal_notification_switch(self):
         self.deliver()
         self.assertEqual(len(self.logs), 1)
